@@ -7,19 +7,57 @@
   </head>
   <body>
 
-    <header>
-      <a href="">
-        <img src="" width="100" height="20" alt="Погнали?">
+    <header class="header">
+      <a href="" class="header__logo-link">
+        <img src="" class="header__logo-image" width="100" height="20" alt="Погнали?">
       </a>
-      <a href="">
-        <img src="" width="25" height="12" alt="Меню">
+      <a href="" class="header__burger-link">
+        <img src="" class="header__burger-image" width="25" height="12" alt="Меню">
       </a>
+      <div class="popup-menu">
+        <nav class="popup-menu__nav-wrapper">
+          <ul class="popup-menu__nav-list">
+            <li class="popup-menu__nav-list-item">
+              <a href="#" class="popup-menu__nav-list-link">О сервисе</a>
+            </li>
+            <li class="popup-menu__nav-list-item">
+              <a href="" class="popup-menu__nav-list-link">Направления</a>
+            </li>
+            <li class="popup-menu__nav-list-item">
+              <a href="" class="popup-menu__nav-list-link">Направления</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="popup-menu__authorize-link" href=""></a>
+        <a href="tel:88005558628">8 800 555-86-28</a>
+        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        <ul class="popup-menu__social-list">
+          <li class="popup-menu__social-list-item">
+            <a href="" class="popup-menu__social-link">
+              <p class="visually-hidden">Наш Facebook</p>
+            </a>
+          </li>
+          <li class="popup-menu__social-list-item">
+            <a href="" class="popup-menu__social-link">
+              <p class="visually-hidden">Наш VK</p>
+            </a>
+          </li>
+          <li class="popup-menu__social-list-item">
+            <a href="" class="popup-menu__social-link">
+              <p class="visually-hidden">Наш Instagram</p>
+            </a>
+          </li>
+        </ul>
+        <button class="popup-menu__close-button" type="button" name="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </div>
     </header>
 
 
     <main>
       <section class="intro">
-        <h1>Попутчики</h1>
+        <h1 class="intro__heading">Попутчики</h1>
       </section>
 <!--
       <section class="filter">
@@ -629,32 +667,32 @@
     </main>
 
 
-    <footer>
-      <a href="">
-        <img src="" width="100" height="20" alt="Погнали?">
+    <footer class="footer">
+      <a class="footer__logo-link" href="">
+        <img class="footer__logo-img" src="" width="100" height="20" alt="Погнали?">
       </a>
 
-      <ul>
-        <li>
-          <a href="">
-            <p>Наш Facebook</p>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="">
+            <p class="footer__social-description visually-hidden">Наш Facebook</p>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>Наш VK</p>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="">
+            <p class="footer__social-description visually-hidden">Наш VK</p>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>Наш Instagram</p>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="">
+            <p class="footer__social-description visually-hidden">Наш Instagram</p>
           </a>
         </li>
       </ul>
 
-      <a href="">
-        Разработано
-        <img src="" width="27" height="34" alt="Логотип HTML Academy">
+      <a class="footer__developer-link" href="">
+        <span class="footer__developer-text">Разработано</span>
+        <img class="footer__developer-logo" src="" width="27" height="34" alt="Логотип HTML Academy">
       </a>
     </footer>
 
