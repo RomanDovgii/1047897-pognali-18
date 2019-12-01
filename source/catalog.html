@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Погнали</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="" class="header__logo-link">
+        <img src="" class="header__logo-image" width="100" height="20" alt="Погнали?">
+      </a>
+      <a href="" class="header__burger-link">
+        <img src="" class="header__burger-image" width="25" height="12" alt="Меню">
+      </a>
+      <div class="popup-menu">
+        <nav class="popup-menu__nav-wrapper">
+          <ul class="popup-menu__nav-list">
+            <li class="popup-menu__nav-list-item">
+              <a href="#" class="popup-menu__nav-list-link">О сервисе</a>
+            </li>
+            <li class="popup-menu__nav-list-item">
+              <a href="" class="popup-menu__nav-list-link">Направления</a>
+            </li>
+            <li class="popup-menu__nav-list-item">
+              <a href="" class="popup-menu__nav-list-link">Направления</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="popup-menu__authorize-link" href=""></a>
+        <a href="tel:88005558628">8 800 555-86-28</a>
+        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        <ul class="popup-menu__social-list">
+          <li class="popup-menu__social-list-item">
+            <a href="" class="popup-menu__social-link">
+              <p class="visually-hidden">Наш Facebook</p>
+            </a>
+          </li>
+          <li class="popup-menu__social-list-item">
+            <a href="" class="popup-menu__social-link">
+              <p class="visually-hidden">Наш VK</p>
+            </a>
+          </li>
+          <li class="popup-menu__social-list-item">
+            <a href="" class="popup-menu__social-link">
+              <p class="visually-hidden">Наш Instagram</p>
+            </a>
+          </li>
+        </ul>
+        <button class="popup-menu__close-button" type="button" name="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </div>
+    </header>
+
+
+    <main>
+      <section class="intro">
+        <h1 class="intro__heading">Попутчики</h1>
+      </section>
+<!--
+      <section class="filter">
+        <h2>Фильтрация по странам</h2>
+        <div class="filter__block filter__block--active">
+          <ul>
+            <li>
+              <a href="">Европа</a>
+            </li>
+            <li>
+              <a href="">Азия</a>
+            </li>
+            <li>
+              <a href="">Америка</a>
+            </li>
+            <li>
+              <a href="">Острова</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="">а</a>
+            </li>
+            <li>
+              <a href="">б</a>
+            </li>
+            <li>
+              <a href="">в</a>
+            </li>
+            <li>
+              <a href="">г</a>
+            </li>
+            <li>
+              <a href="">д</a>
+            </li>
+            <li>
+              <a href="">е</a>
+            </li>
+            <li>
+              <a href="">з</a>
+            </li>
+            <li>
+              <a href="">и</a>
+            </li>
+            <li>
+              <a href="">к</a>
+            </li>
+            <li>
+              <a href="">л</a>
+            </li>
+            <li>
+              <a href="">м</a>
+            </li>
+            <li>
+              <a href="">н</a>
+            </li>
+            <li>
+              <a href="">о</a>
+            </li>
+            <li>
+              <a href="">п</a>
+            </li>
+            <li>
+              <a href="">р</a>
+            </li>
+            <li>
+              <a href="">с</a>
+            </li>
+            <li>
+              <a href="">т</a>
+            </li>
+            <li>
+              <a href="">у</a>
+            </li>
+            <li>
+              <a href="">ф</a>
+            </li>
+            <li>
+              <a href="">х</a>
+            </li>
+            <li>
+              <a href="">ч</a>
+            </li>
+            <li>
+              <a href="">ш</a>
+            </li>
+            <li>
+              <a href="">э</a>
+            </li>
+            <li>
+              <a href="">ю</a>
+            </li>
+            <li>
+              <a href="">я</a>
+            </li>
+          </ul>
+
+          <div class="">
+            <ul>
+              <li>
+                <a href="">Афганистан</a>
+              </li>
+              <li>
+                <a href="">Албания</a>
+              </li>
+              <li>
+                <a href="">Алжир</a>
+              </li>
+              <li>
+                <a href="">Андорра</a>
+              </li>
+              <li>
+                <a href="">Аргентина</a>
+              </li>
+              <li>
+                <a href="">Армения</a>
+              </li>
+              <li>
+                <a href="">Австралия</a>
+              </li>
+              <li>
+                <a href="">Австрия</a>
+              </li>
+              <li>
+                <a href="">Азербайджан</a>
+              </li>
+            </ul>
+          </div>
+
+          <a href=""> <span></span> Свернуть</a>
+        </div>
+      </section>
+
+      <section class="travelmates-filter">
+        <h2>Подберите идеального попутчика</h2>
+        <form class="" action="index.html" action="https://echo.htmlacademy.ru" method="post">
+          <div class="travelmates-filter__hobby">
+            <a href="">Хобби</a>
+            <fieldset>
+
+            </fieldset>
+
+            <a href="">Музыка</a>
+            <fieldset>
+              <input type="checkbox" name="music" value="hard-rock" id="hard-rock">
+              <label for="hard-rock">Тяжелый рок</label>
+              <input type="checkbox" name="music" value="russian-rap" id="russian-rap">
+              <label for="russian-rap">Русский рэп</label>
+              <input type="checkbox" name="music" value="eurodance" id="eurodance">
+              <label for="eurodance">Евроденс</label>
+            </fieldset>
+
+            <a href="">Еда</a>
+            <fieldset>
+
+            </fieldset>
+
+            <a href="">Транспорт</a>
+            <fieldset>
+              <input type="checkbox" name="transport" value="plane" id="plane">
+              <label for="plane">
+                <span class="visually-hidden"> Самолет</span>
+              </label>
+              <input type="checkbox" name="transport" value="bus" id="bus">
+              <label for="bus">
+                <span class="visually-hidden"> Автобус</span>
+              </label>
+              <input type="checkbox" name="transport" value="bike" id="bike">
+              <label for="bike">
+                <span class="visually-hidden"> Велосипед</span>
+              </label>
+              <input type="checkbox" name="transport" value="run" id="run">
+              <label for="run">
+                <span class="visually-hidden"> Бег</span>
+              </label>
+            </fieldset>
+
+            <a href="">Левел</a>
+            <fieldset>
+
+            </fieldset>
+
+            <a href="">Показать</a>
+          </div>
+        </form>
+      </section>
+-->
+
+      <section class="travelmates-list">
+        <div class="travelmates-list__card">
+          <div class="travelmates-card__user-photo-wrapper">
+            <img src="travelmates-card__user-photo" width="70" height="70" alt="фотография пользователя">
+          </div>
+          <div class="travelmates-card__bio">
+            <div class="travelmates-card__user-info">
+              <p class="travelmates-card__user-name">Таня Фирсова </p>
+              <div class="travelmates-card__user-status">
+                <div class="travelmates-card__user-online-indicator">
+                  <span class="travelmates-card__user-online-text visually-hidden">offline</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="travelmates-card__like-user">
+            <div class="travelmates-card__like-image travelmates-card__like-image--active">
+              <span class="travelmates-card__like-user-text visually-hidden">Нравится</span>
+            </div>
+            <span>1,5 М</span>
+          </div>
+
+          <div class="travelmates-card__hashtags">
+            <ul class="travelmates-card__hashtags-list">
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#ЗОЖ</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#ПП</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#Фитнес</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#пляж</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#авокадо</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#смузи</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__wants-to-visit">
+            <span class="travelmates-card__wants-to-visit-text">Хочет посетить:</span>
+            <ul class="travelmates-card__places-list">
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Шри-ланки" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Шри-ланка</p>
+              </li>
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Таиланда" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Таиланд</p>
+              </li>
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Сейшел" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Сейшелы</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__transport-and-level">
+            <ul class="travelmates-card__transport-list">
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-plane travelmates-card__transport-plane--active">
+                    <p class="visually-hidden">Самолет</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bus">
+                    <p class="visually-hidden">Автобус</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bike">
+                    <p class="visually-hidden">Велосипед</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-run">
+                    <p class="visually-hidden">Бег</p>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="travelmates-card__level">
+              <span class="travelmates-card__level-number">99</span>
+
+              <p class="travelmates-card__level-text">level</p>
+            </div>
+          </div>
+
+          <a class="travelmates-card__lets-go-link" href="">Позвать</a>
+        </div>
+<!-- Фирсова Таня - конец -->
+        <div class="travelmates-list__card">
+          <div class="travelmates-card__user-photo-wrapper">
+            <img src="travelmates-card__user-photo" width="70" height="70" alt="фотография пользователя">
+          </div>
+          <div class="travelmates-card__bio">
+            <div class="travelmates-card__user-info">
+              <p class="travelmates-card__user-name">Петя Демин </p>
+              <div class="travelmates-card__user-status">
+                <div class="travelmates-card__user-online-indicator">
+                  <span class="travelmates-card__user-online-text visually-hidden">offline</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="travelmates-card__like-user">
+            <div class="travelmates-card__like-image">
+              <span class="travelmates-card__like-user-text visually-hidden">Нравится</span>
+            </div>
+            <span>150</span>
+          </div>
+
+          <div class="travelmates-card__hashtags">
+            <ul class="travelmates-card__hashtags-list">
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#бургер</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#бар</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#футбол</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#концерт</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#крафт</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__wants-to-visit">
+            <span class="travelmates-card__wants-to-visit-text">Хочет посетить:</span>
+            <ul class="travelmates-card__places-list">
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Бельгии" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Бельгия</p>
+              </li>
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Чехии" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Чехия</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__transport-and-level">
+            <ul class="travelmates-card__transport-list">
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-plane travelmates-card__transport-plane--active">
+                    <p class="visually-hidden">Самолет</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bus travelmates-card__transport-bus--active">
+                    <p class="visually-hidden">Автобус</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bike">
+                    <p class="visually-hidden">Велосипед</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-run travelmates-card__transport-run--active">
+                    <p class="visually-hidden">Бег</p>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="travelmates-card__level">
+              <span class="travelmates-card__level-number">80</span>
+
+              <p class="travelmates-card__level-text">level</p>
+            </div>
+          </div>
+
+          <a class="travelmates-card__lets-go-link" href="">Позвать</a>
+        </div>
+<!--Демин Петя - конец -->
+        <div class="travelmates-list__card">
+          <div class="travelmates-card__user-photo-wrapper">
+            <img src="travelmates-card__user-photo" width="70" height="70" alt="фотография пользователя">
+          </div>
+          <div class="travelmates-card__bio">
+            <div class="travelmates-card__user-info">
+              <p class="travelmates-card__user-name">Марк Смолов</p>
+              <div class="travelmates-card__user-status">
+                <div class="travelmates-card__user-online-indicator">
+                  <span class="travelmates-card__user-online-text visually-hidden">offline</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="travelmates-card__like-user">
+            <div class="travelmates-card__like-image">
+              <span class="travelmates-card__like-user-text visually-hidden">Нравится</span>
+            </div>
+            <span>1700</span>
+          </div>
+
+          <div class="travelmates-card__hashtags">
+            <ul class="travelmates-card__hashtags-list">
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#рэп</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#тату</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#хайпбист</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#кроссовки</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#суприм</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__wants-to-visit">
+            <span class="travelmates-card__wants-to-visit-text">Хочет посетить:</span>
+            <ul class="travelmates-card__places-list">
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг СЩА" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">США</p>
+              </li>
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Австралия" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Австралия</p>
+              </li>
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Доминикана" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Доминикана</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__transport-and-level">
+            <ul class="travelmates-card__transport-list">
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-plane travelmates-card__transport-plane--active">
+                    <p class="visually-hidden">Самолет</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bus">
+                    <p class="visually-hidden">Автобус</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bike travelmates-card__transport-bike--active">
+                    <p class="visually-hidden">Велосипед</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-run ">
+                    <p class="visually-hidden">Бег</p>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="travelmates-card__level">
+              <span class="travelmates-card__level-number">20</span>
+
+              <p class="travelmates-card__level-text">level</p>
+            </div>
+          </div>
+
+          <a class="travelmates-card__lets-go-link" href="">Позвать</a>
+        </div>
+<!-- Смолов Марк - конец -->
+        <div class="travelmates-list__card">
+          <div class="travelmates-card__user-photo-wrapper">
+            <img src="travelmates-card__user-photo" width="70" height="70" alt="фотография пользователя">
+          </div>
+          <div class="travelmates-card__bio">
+            <div class="travelmates-card__user-info">
+              <p class="travelmates-card__user-name">Лариса Роговая </p>
+              <div class="travelmates-card__user-status">
+                <div class="travelmates-card__user-online-indicator">
+                  <span class="travelmates-card__user-online-text visually-hidden">online</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="travelmates-card__like-user">
+            <div class="travelmates-card__like-image">
+              <span class="travelmates-card__like-user-text visually-hidden">Нравится</span>
+            </div>
+            <span>23</span>
+          </div>
+
+          <div class="travelmates-card__hashtags">
+            <ul class="travelmates-card__hashtags-list">
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#образование</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#карьера</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#учеба</a>
+              </li>
+              <li class="travelmates-card__hashtags-list-item">
+                <a class="travelmates-card__hashtags-link" href="">#линкедин</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__wants-to-visit">
+            <span class="travelmates-card__wants-to-visit-text">Хочет посетить:</span>
+            <ul class="travelmates-card__places-list">
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Великобритания" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Великобритания</p>
+              </li>
+              <li class="travelmates-card__places-list-item">
+                <img src="" width="35" height="24" alt="флаг Германия" class="travelmates-card__country-flag">
+                <p class="travelmates-card__country-name">Германия</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="travelmates-card__transport-and-level">
+            <ul class="travelmates-card__transport-list">
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-plane travelmates-card__transport-plane--active">
+                    <p class="visually-hidden">Самолет</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bus travelmates-card__transport-bus--active">
+                    <p class="visually-hidden">Автобус</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-bike">
+                    <p class="visually-hidden">Велосипед</p>
+                  </span>
+                </a>
+              </li>
+              <li class="travelmates-card__transport-list-item">
+                <a class="travelmates-card__transport-link" href="">
+                  <span class="travelmates-card__transport-run ">
+                    <p class="visually-hidden">Бег</p>
+                  </span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="travelmates-card__level">
+              <span class="travelmates-card__level-number">50</span>
+
+              <p class="travelmates-card__level-text">level</p>
+            </div>
+          </div>
+
+          <a class="travelmates-card__lets-go-link" href="">Позвать</a>
+        </div>
+<!-- Роговая Лариса - конец -->
+        <a class="travelmates-list__show-more" href="">
+          <span class="travelmates-list__show-more-plus"></span>
+          Показать еще
+        </a>
+
+        <div class="travelmates-list__previous-next">
+          <a class="travelmates-list__previous-page" href="">
+            <span class="travelmates-list__previous-page-image"></span>
+            <span class="visually-hidden">предыдущая страница</span>
+          </a>
+          <a class="travelmates-list__next-page" href="">
+            <span class="travelmates-list__next-page-image"></span>
+            <span class="visually-hidden">следующая страница</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <a class="footer__logo-link" href="">
+        <img class="footer__logo-img" src="" width="100" height="20" alt="Погнали?">
+      </a>
+
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="">
+            <p class="footer__social-description visually-hidden">Наш Facebook</p>
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="">
+            <p class="footer__social-description visually-hidden">Наш VK</p>
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="">
+            <p class="footer__social-description visually-hidden">Наш Instagram</p>
+          </a>
+        </li>
+      </ul>
+
+      <a class="footer__developer-link" href="">
+        <span class="footer__developer-text">Разработано</span>
+        <img class="footer__developer-logo" src="" width="27" height="34" alt="Логотип HTML Academy">
+      </a>
+    </footer>
+
+  </body>
+</html>
