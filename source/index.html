@@ -11,7 +11,7 @@
         <a href="" class="top-menu__logo-link">
           <img class="top-menu__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
         </a>
-        <button class="top-menu__button" type="button" name="button">
+        <button class="top-menu__button" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
 
@@ -19,7 +19,7 @@
           <a href="" class="more-info__logo-link">
             <img class="more-info__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
           </a>
-          <button class="more-info__close-button" type="button" name="button">
+          <button class="more-info__close-button" type="button" >
             <span class="visually-hidden">Закрыть меню</span>
           </button>
 
@@ -39,14 +39,12 @@
 
           <ul class="contacts-list about__contacts-list">
             <li class="contacts-list__item">
-              <a class="contacts-list__link" href="tel:88005558628">
-                <span class="contacts-list__tel-img"></span>
+              <a class="contacts-list__link contacts-list__link--phone" href="tel:88005558628">
                 <span class="contacts-list__phone">8 800 555-86-28</span>
               </a>
             </li>
             <li class="contacts-list__item">
-              <a class="contacts-list__link" href="mailto:mail@htmlacademy.ru">
-                <span class="contacts-list__mail-img"></span>
+              <a class="contacts-list__link contacts-list__link--email" href="mailto:mail@htmlacademy.ru">
                 <span class="contacts-list__email">mail@htmlacademy.ru</span>
               </a>
             </li>
@@ -54,17 +52,17 @@
 
           <ul class="social-list more-info__social-list">
             <li class="social-list__item">
-              <a class="social-facebook social-list__link" href="">
+              <a class="social-list__link social-list__link--facebook" href="">
                 <span class="visually-hidden">Наш Facebook</span>
               </a>
             </li>
             <li class="social-list__item">
-              <a class="social-vk social-list__link" href="">
+              <a class="social-list__link social-list__link--vk" href="">
                 <span class="visually-hidden">Наш VK</span>
               </a>
             </li>
             <li class="social-list__item">
-              <a class="social-instagram social-list__link" href="">
+              <a class="social-list__link social-list__link--instagram" href="">
                 <span class="visually-hidden">Наш instagram</span>
               </a>
             </li>
@@ -76,27 +74,25 @@
     <main class="main">
       <section class="intro main__intro">
         <div class="heading-wrapper intro__heading-wrapper">
-          <h1 class="visually-hidden">Описание сервиса</h1>
+          <h1 class="visually-hidden">Погнали? Сервис подбора попутчиков.</h1>
           <p class="heading intro__heading">В путешествие с крутыми попутчиками!</p>
         </div>
-        <div class="functions-wrapper intro__functions-wrapper">
-          <ul class="contacts-list functions-wrapper__contacts-list">
-            <li class="contacts-list__item">
-              <a class="contacts-list__link" href="tel:88005558628">
-                <span class="contacts-list__tel-img"></span>
-                <span class="contacts-list__phone visually-hidden">8 800 555-86-28</span>
-              </a>
-            </li>
-            <li class="contacts-list__item">
-              <a class="contacts-list__link" href="mailto:mail@htmlacademy.ru">
-                <span class="contacts-list__mail-img"></span>
-                <span class="contacts-list__email visually-hidden">mail@htmlacademy.ru</span>
-              </a>
-            </li>
-          </ul>
+        <ul class="contacts-list intro__contacts-list">
+          <li class="contacts-list__item">
+            <a class="contacts-list__link" href="tel:88005558628">
+              <span class="contacts-list__tel-img"></span>
+              <span class="contacts-list__phone visually-hidden">8 800 555-86-28</span>
+            </a>
+          </li>
+          <li class="contacts-list__item">
+            <a class="contacts-list__link" href="mailto:mail@htmlacademy.ru">
+              <span class="contacts-list__mail-img"></span>
+              <span class="contacts-list__email visually-hidden">mail@htmlacademy.ru</span>
+            </a>
+          </li>
+        </ul>
 
-          <a class="auth-link functions-wrapper__auth-link" href="">Авторизация</a>
-        </div>
+        <a class="auth-link intro__auth-link" href="">Авторизация</a>
 
         <div class="quote intro__quote">
           <p class="quote__text text__size--16 text__weight--thin">«Лучшее приложение, что я видел в жизни!»</p>
@@ -328,10 +324,7 @@
       </section>
 
       <section class="rates main__rates">
-        <div class="rates__heading-wrapper">
-          <h2 class="rates__heading heading__color--orange">Добавьте свой профиль</h2>
-          <div class="rates__img"></div>
-        </div>
+        <h2 class="rates__heading heading__color--orange">Добавьте свой профиль</h2>
 
         <ol class="rates-list rates__rates-list">
           <li class="rates-list__item">
@@ -354,11 +347,11 @@
           </li>
         </ol>
 
-        <button class="rates__button" type="button" name="button">
+        <button class="rates__button" type="button" >
           <span class="rates__button-text">Показать тарифы для бизнеса</span>
         </button>
 
-        <div class="business-rates ratest__business-rates">
+        <div class="business-rates rates__business-rates">
           <h3 class="business-rates__heading heading__color--orange">Бизнес-тарифы</h3>
           <ul class="business-rates__rates-list">
             <li class="rates-list__item">
@@ -379,7 +372,7 @@
             </li>
           </ul>
 
-          <button class="business-rates__button" type="button" name="button">
+          <button class="business-rates__button" type="button" >
             <span class="business-rates__button-text">Закрыть окно</span>
           </button>
         </div>
@@ -433,17 +426,17 @@
         </a>
         <ul class="social-list footer-info__social-list">
           <li class="social-list__item">
-            <a class="social-facebook social-list__link" href="">
+            <a class="social-list__link social-list__link--facebook" href="">
               <span class="visually-hidden">Наш Facebook</span>
             </a>
           </li>
           <li class="social-list__item">
-            <a class="social-vk social-list__link" href="">
+            <a class="social-list__link social-list__link--vk" href="">
               <span class="visually-hidden">Наш VK</span>
             </a>
           </li>
           <li class="social-list__item">
-            <a class="social-instagram social-list__link" href="">
+            <a class="social-list__link social-list__link-instagram" href="">
               <span class="visually-hidden">Наш instagram</span>
             </a>
           </li>
