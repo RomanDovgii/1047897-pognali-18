@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+filter-country<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -78,22 +78,14 @@
         <h1 class="heading intro__heading">Попутчики</h1>
       </section>
 
-      <section class="filter-by-country main__filter-by-country">
-        <h2 class="visually-hidden">Фильтрация по странам</h2>
+      <section class="filter-country main__filter-country">
+        <h2 class="filter-country__name">Фильтрация по странам</h2>
         <button class="open-filter" type="button" name="button">
           <span class="visually-hidden">Развернуть фильтр</span>
-          <span class="filter-img open-filter__filter-img"></span>
-          <span class="open-filter__text"> Фильтрация по странам </span>
-          <span class="dots-img open-filter__dots-img"></span>
         </button>
-        <div class="filter filter-by-country__filter">
+        <div class="filter filter-country__filter">
           <div class="top-block filter__top-block">
-            <p class="top-block__heading">
-              <span class="filter-img top-block__filter-img"></span>
-              <span class="top-block__text"> Фильтрация по странам </span>
-            </p>
             <button class="collapse-filter top-block__collapse-filter top-block__collapse-filter--top" type="button" name="button">
-              <span class="collapse-filter__img"></span>
               <span class="visually-hidden">Свернуть фильтр</span>
             </button>
           </div>
@@ -114,10 +106,10 @@
 
           <ul class="letters-list filter__letters-list">
             <li class="letters-list__item">
-              <a href="letters-list__link">А</a>
+              <a href="letters-list__link letters-list__link--active">А</a>
             </li>
             <li class="letters-list__item">
-              <a href="letters-list__link letters-list__link--active">Б</a>
+              <a href="letters-list__link letters-list__link">Б</a>
             </li>
             <li class="letters-list__item">
               <a href="letters-list__link">В</a>
@@ -222,7 +214,6 @@
 
           <button class="collapse-filter filter__collapse-filter filter__collapse-filter--bottom" type="button" name="button">
             <span class="visually-hidden">Свернуть фильтр</span>
-            <span class="collapse-filter__img"></span>
             <span class="collapse-filter__text">Свернуть</span>
           </button>
         </div>
