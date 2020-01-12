@@ -99,16 +99,16 @@
             <fieldset class="change-transport__fieldset form__change-transport">
               <legend class="change-transport__legend">Транспорт</legend>
               <label class="change-transport__plane-label" for="plane">
-                <p class="visually-hidden">Самолет</p>
+                <span class="visually-hidden">Самолет</span>
               </label>
               <label class="change-transport__bus-label" for="bus">
-                <p class="visually-hidden">Автобус</p>
+                <span class="visually-hidden">Автобус</span>
               </label>
               <label class="change-transport__bycicle-label" for="bycicle">
-                <p class="visually-hidden">Велосипед</p>
+                <span class="visually-hidden">Велосипед</span>
               </label>
               <label class="change-transport__run-label" for="run">
-                <p class="visually-hidden">Пешком</p>
+                <span class="visually-hidden">Пешком</span>
               </label>
               <input class="visually-hidden" type="checkbox" name="plane" id="plane" checked>
               <input class="visually-hidden" type="checkbox" name="bus" id="bus" checked>
@@ -166,10 +166,10 @@
                   Можно с детьми
                 </label>
               </fieldset>
-              <span class="steps-list__month-selection" href="">Март 2019</span>
+              <span class="steps-list__month-selection">Март 2019</span>
 
               <div class="calendar steps-list__calendar">
-                <div class="days-names calendar__days-names" class="">
+                <div class="days-names calendar__days-names">
                   <ul class="days-names__list">
                     <li class="days-names__item">
                       <p class="visually-hidden">Понедельник</p>
@@ -329,8 +329,8 @@
             </li>
             <li class="steps-list__item">
               <h3 class="steps-list__heading">
-                <p class="steps-list__first-line">Шаг 2.</p>
-                <p class="steps-list__second-line">Маршрут</p>
+                <span class="steps-list__first-line">Шаг 2.</span>
+                <span class="steps-list__second-line">Маршрут</span>
               </h3>
               <p class="steps-list__description">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
 
@@ -340,7 +340,7 @@
                     <span class="visually-hidden">удалить страну</span>
                   </button>
                   <select class="select-form countries-plan-list__select-form" name="country">
-                    <option disabled></option>
+                    <option label="empty" disabled>   </option>
                     <option value="Bosnia" selected>Босния и герцеговина</option>
                     <option value="Czech">Чехия</option>
                     <option value="Poland">Польша</option>
@@ -352,7 +352,7 @@
                     <span class="visually-hidden">удалить страну</span>
                   </button>
                   <select class="select-form countries-plan-list__select-form" name="country">
-                    <option disabled></option>
+                    <option label="empty" disabled>   </option>
                     <option value="Bosnia">Босния и герцеговина</option>
                     <option value="Czech" selected>Чехия</option>
                     <option value="Poland">Польша</option>
@@ -363,8 +363,8 @@
                   <button class="countries-plan-list__close-country" type="button" name="button">
                     <span class="visually-hidden">удалить страну</span>
                   </button>
-                  <select class="countries-plan-list__select-form" name="">
-                    <option disabled selected></option>
+                  <select class="countries-plan-list__select-form" name="country">
+                    <option label="empty" disabled selected> </option>
                     <option value="Bosnia">Босния и герцеговина</option>
                     <option value="Czech">Чехия</option>
                     <option value="Poland">Польша</option>
@@ -380,8 +380,8 @@
             </li>
             <li class="steps-list__item">
               <h3 class="steps-list__heading">
-                <p class="steps-list__first-line">Шаг 3.</p>
-                <p class="steps-list__second-line">Развлечения</p>
+                <span class="steps-list__first-line">Шаг 3.</span>
+                <span class="steps-list__second-line">Развлечения</span>
               </h3>
               <p class="steps-list__description">Наконец, расскажите о своих планах времяпровождения. Можно писать в свободной форме и ставить тэги.</p>
               <fieldset class="textarea-fieldset steps-list__textarea-fieldset">
