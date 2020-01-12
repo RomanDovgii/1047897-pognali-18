@@ -85,37 +85,37 @@
           </p>
         </div>
         <img class="personal-info__user-img" width="100" height="100" src="https://via.placeholder.com/150x150" alt="фото пользователя">
-        <label class="change-avatar personal-info__change-avatar" for="change-avatar__button">
-          Cменить фото
-          <input class="visually-hidden" type="file" id="change-avatar__button">
-        </label>
-        <form class="change-tags personal-info__add-tags" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset class="change-tags__fieldset">
-            <legend class="change-tags__legend">Тэги</legend>
-            <textarea class="change-tags__textarea" name="tags" rows="8" cols="20"></textarea>
-          </fieldset>
-        </form>
-        <form class="change-transport personal-info__change-transport" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset class="change-transport__fieldset">
-            <legend class="change-transport__legend">Транспорт</legend>
-            <label class="change-transport__plane-label" for="plane">
-              <p class="visually-hidden">Самолет</p>
-            </label>
-            <label class="change-transport__bus-label" for="bus">
-              <p class="visually-hidden">Автобус</p>
-            </label>
-            <label class="change-transport__bycicle-label" for="bycicle">
-              <p class="visually-hidden">Велосипед</p>
-            </label>
-            <label class="change-transport__run-label" for="run">
-              <p class="visually-hidden">Пешком</p>
-            </label>
-            <input class="visually-hidden" type="checkbox" name="plane" id="plane" checked>
-            <input class="visually-hidden" type="checkbox" name="bus" id="bus" checked>
-            <input class="visually-hidden" type="checkbox" name="bycicle" id="bycicle">
-            <input class="visually-hidden" type="checkbox" name="run" id="run" checked>
-          </fieldset>
-        </form>
+        <form class="form personal-info__form" action="https://echo.htmlacademy.ru" method="post">
+          <label class="change-avatar form__change-avatar" for="change-avatar__button">
+            Cменить фото
+            <input class="visually-hidden" type="file" id="change-avatar__button">
+          </label>
+            <fieldset class="change-tags form__change-tags">
+              <fieldset class="change-tags__fieldset">
+                <legend class="change-tags__legend">Тэги</legend>
+                <textarea class="change-tags__textarea" name="tags" rows="8" cols="20"></textarea>
+              </fieldset>
+            </fieldset>
+            <fieldset class="change-transport__fieldset form__change-transport">
+              <legend class="change-transport__legend">Транспорт</legend>
+              <label class="change-transport__plane-label" for="plane">
+                <p class="visually-hidden">Самолет</p>
+              </label>
+              <label class="change-transport__bus-label" for="bus">
+                <p class="visually-hidden">Автобус</p>
+              </label>
+              <label class="change-transport__bycicle-label" for="bycicle">
+                <p class="visually-hidden">Велосипед</p>
+              </label>
+              <label class="change-transport__run-label" for="run">
+                <p class="visually-hidden">Пешком</p>
+              </label>
+              <input class="visually-hidden" type="checkbox" name="plane" id="plane" checked>
+              <input class="visually-hidden" type="checkbox" name="bus" id="bus" checked>
+              <input class="visually-hidden" type="checkbox" name="bycicle" id="bycicle">
+              <input class="visually-hidden" type="checkbox" name="run" id="run" checked>
+            </fieldset>
+          </form>
       </section>
 
       <section class="my-plans main__my-plans">
