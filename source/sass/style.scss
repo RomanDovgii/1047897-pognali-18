@@ -1,1 +1,23 @@
+@import "./fonts.scss";
+@import "./blocks/body.scss";
+@import "./blocks/header.scss";
+@import "./blocks/top-menu.scss";
+@import "./blocks/more-info.scss";
+@import "./blocks/info-list.scss";
+@import "./blocks/contacts-list.scss";
+@import "./blocks/social-list.scss";
+@import "./blocks/intro.scss";
+@import "./blocks/functions-list.scss";
+@import "./blocks/quote.scss";
+@import "./blocks/actions-list.scss";
+@import "./blocks/about.scss";
+@import "./blocks/countries.scss";
+@import "./blocks/country-list.scss";
+@import "./blocks/country-card.scss";
+@import "./blocks/footer.scss";
 @import "./blocks/visually-hidden.scss";
+@import "./blocks/normalize.scss";
+
+.body {
+  width: 320px;
+}

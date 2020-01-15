@@ -1,0 +1,22 @@
+.info-list {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  margin-top: 65px;
+  margin-left: 1px;
+  letter-spacing: 0;
+}
+
+.info-list__item {
+  margin-top: 1px;
+}
+
+.info-list__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #192144;
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}

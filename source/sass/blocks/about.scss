@@ -1,0 +1,38 @@
+.about {
+  position: relative;
+  background: #192144 url("../../img/mobile/about-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-left: 50px;
+  padding-right: 70px;
+  height: 631px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: -260px;
+  z-index: 9;
+}
+
+.about__heading {
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff8d30;
+  padding-top: 310px;
+}
+
+.about__text {
+  font-family: "Blogger Sans", sans-serif;
+  color: #ffffff;
+  &--thin {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &--bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -3,24 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Погнали</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <section class="top-menu header__top-menu">
-        <a href="" class="top-menu__logo-link">
-          <img class="top-menu__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
-        </a>
-        <button class="top-menu__button" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-
-        <div class="more-info top-menu__more-info">
-          <a href="" class="more-info__logo-link">
-            <img class="more-info__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
+        <div class="top-menu__main-functions">
+          <a href="index.html" class="top-menu__logo-link">
+            <img class="top-menu__logo-img" src="./img/mobile/logo-mobile-white@1x.png" width="100" height="20" alt="Погнали?">
           </a>
-          <button class="more-info__close-button" type="button" >
-            <span class="visually-hidden">Закрыть меню</span>
+          <button class="top-menu__button" type="button">
+            <span class="visually-hidden">Открыть меню</span>
           </button>
+        </div>
+
+
+        <div class="more-info top-menu__more-info visually-hidden">
+          <div class="more-info__main-functions">
+            <a href="" class="more-info__logo-link">
+              <img class="more-info__logo-img" src="./img/mobile/logo-mobile-blue@1x.png" width="100" height="20" alt="Погнали?">
+            </a>
+            <button class="more-info__close-button" type="button" >
+              <span class="visually-hidden">Закрыть меню</span>
+            </button>
+          </div>
+
 
           <ul class="info-list more-info__info-list">
             <li class="info-list__item">
@@ -34,17 +41,17 @@
             </li>
           </ul>
 
-          <a class="auth-link more-info__auth-link" href="">Авторизация</a>
+          <a class="more-info__auth-link" href="">Авторизация</a>
 
           <ul class="contacts-list about__contacts-list">
             <li class="contacts-list__item">
               <a class="contacts-list__link contacts-list__link--phone" href="tel:88005558628">
-                <span class="contacts-list__phone">8 800 555-86-28</span>
+                <span class="contacts-list__span contacts-list__phone">8 800 555-86-28</span>
               </a>
             </li>
             <li class="contacts-list__item">
               <a class="contacts-list__link contacts-list__link--email" href="mailto:mail@htmlacademy.ru">
-                <span class="contacts-list__email">mail@htmlacademy.ru</span>
+                <span class="contacts-list__span contacts-list__email">mail@htmlacademy.ru</span>
               </a>
             </li>
           </ul>
@@ -72,96 +79,100 @@
 
     <main class="main">
       <section class="intro main__intro">
-        <div class="heading-wrapper intro__heading-wrapper">
-          <h1 class="visually-hidden">Погнали? Сервис подбора попутчиков.</h1>
-          <p class="heading intro__heading">В путешествие с крутыми попутчиками!</p>
-        </div>
-        <ul class="contacts-list intro__contacts-list">
-          <li class="contacts-list__item">
-            <a class="contacts-list__link" href="tel:88005558628">
-              <span class="contacts-list__phone visually-hidden">8 800 555-86-28</span>
+        <h1 class="visually-hidden">Погнали? Сервис подбора попутчиков.</h1>
+        <p class="intro__heading">В путешествие с крутыми попутчиками!</p>
+        <ul class="functions-list intro__functions-list">
+          <li class="functions-list__item">
+            <a class="functions-list__link functions-list__link--phone" href="tel:88005558628">
+              <span class="functions-list__phone visually-hidden">8 800 555-86-28</span>
             </a>
           </li>
-          <li class="contacts-list__item">
-            <a class="contacts-list__link" href="mailto:mail@htmlacademy.ru">
-              <span class="contacts-list__email visually-hidden">mail@htmlacademy.ru</span>
+          <li class="functions-list__item">
+            <a class="functions-list__link functions-list__link--email" href="mailto:mail@htmlacademy.ru">
+              <span class="functions-list__email visually-hidden">mail@htmlacademy.ru</span>
             </a>
+          </li>
+          <li class="functions-list__item">
+            <a class="functions-list__link functions-list__link--auth" href="">Авторизация</a>
           </li>
         </ul>
 
-        <a class="auth-link intro__auth-link" href="">Авторизация</a>
+
         <div class="quote intro__quote">
-          <p class="quote__text text-weight-thin">«Лучшее приложение, что я видел в жизни!»</p>
-          <p class="quote__text text-weight-bold">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
+          <p class="quote__text quote__text--quote">«Лучшее приложение, что я видел в жизни!»</p>
+          <p class="quote__text quote__text--author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
         </div>
 
         <ol class="actions-list intro__actions-list">
-          <li class="actions-list__item">Выберите направление</li>
-          <li class="actions-list__item">Изучите идеи путешественников</li>
-          <li class="actions-list__item">Находите тех, кто похож на вас</li>
-          <li class="actions-list__item">Путешествуйте вместе!</li>
+          <li class="actions-list__item">
+            <span class="actions-list__number">1</span>
+            <span class="actions-list__span">Выберите направление</span>
+          </li>
+          <li class="actions-list__item">
+            <span class="actions-list__number">2</span>
+            <span class="actions-list__span">Изучите идеи путешественников</span>
+          </li>
+          <li class="actions-list__item">
+            <span class="actions-list__number">3</span>
+            <span class="actions-list__span">Находите тех, кто похож на вас</span>
+          </li>
+          <li class="actions-list__item">
+            <span class="actions-list__number">4</span>
+            <span class="actions-list__span">Путешествуйте вместе!</span>
+          </li>
         </ol>
       </section>
 
       <section class="about main__about">
-        <h2 class="about__heading heading-color-orange">О сервисе</h2>
-        <p class="about__text  text-weight-thin">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих. </p>
-        <p class="about__text  text-weight-bold">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
+        <h2 class="about__heading">О сервисе</h2>
+        <p class="about__text about__text--thin">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих. </p>
+        <p class="about__text about__text--bold">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
       </section>
 
       <section class="countries main__countries">
-        <h2 class="countries__heading heading-color-orange">Направления</h2>
-        <p class="countries__text  text-weight-thin">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
+        <h2 class="countries__heading">Направления</h2>
+        <p class="countries__text">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
 
         <ul class="country-list countries__country-list">
           <li class="country-list__item">
             <div class="country-card country-list__country-card img__background--thailand">
-              <div class="contry-card__description">
-                <img class="country-card__county-img" width="270" height="110" src="https://via.placeholder.com/150x150" alt="Таиланд">
-                <span class="country-card__flag country-card__flag--thailand"></span>
-                <p class="contry-card__name">Таиланд</p>
-                <p class="country-card__visited-number">
-                  <span class="country-card__user-img"></span>
-                  <span class="country-card__number">18321</span>
-                </p>
-                <p class="country-card__slogan">Джунгли зовут!</p>
+              <img class="country-card__country-img" width="270" height="110" src="./img/mobile/thailand-mobile@1x.jpg" alt="Таиланд">
+              <div class="country-card__description">
+                <div class="country-card__text-wrapper">
+                  <p class="country-card__name">Таиланд</p>
+                  <p class="country-card__slogan">Джунгли зовут!</p>
+                </div>
+                <p class="country-card__visited-number">18321</p>
               </div>
             </div>
           </li>
           <li class="country-list__item">
             <div class="country-card country-list__country-card">
-              <img class="country-card__county-img" width="270" height="110" src="https://via.placeholder.com/150x150" alt="Франция">
-              <div class="contry-card__description">
-                <span class="country-card__flag country-card__flag--france"></span>
-                <p class="contry-card__name">Франция</p>
-                <p class="country-card__visited-number">
-                  <span class="country-card__user-img"></span>
-                  <span class="country-card__number">12518</span>
-                </p>
-                <p class="country-card__slogan">Трэ бьен, манифик!</p>
+              <img class="country-card__country-img" width="270" height="110" src="./img/mobile/france-mobile@1x.jpg" alt="Франция">
+              <div class="country-card__description">
+                <div class="country-card__text-wrapper">
+                  <p class="country-card__name">Франция</p>
+                  <p class="country-card__slogan">Трэ бьен, манифик!</p>
+                </div>
+                <p class="country-card__visited-number">12518</p>
               </div>
             </div>
           </li>
           <li class="country-list__item">
             <div class="country-card country-list__country-card">
-              <img class="country-card__county-img" width="270" height="110" src="https://via.placeholder.com/150x150" alt="Чехия">
-                <div class="contry-card__description">
-                  <span class="country-card__flag country-card__flag--czech"></span>
-                  <p class="contry-card__name">Чехия</p>
-                  <p class="country-card__visited-number">
-                    <span class="country-card__user-img"></span>
-                    <span class="country-card__number">5326</span>
-                  </p>
-                  <p class="country-card__slogan">Закоулки старой Европы</p>
+              <img class="country-card__country-img" width="270" height="110" src="./img/mobile/czech-mobile@1x.jpg" alt="Чехия">
+                <div class="country-card__description">
+                  <div class="country-card__text-wrapper">
+                    <p class="country-card__name">Чехия</p>
+                    <p class="country-card__slogan">Закоулки старой Европы</p>
+                  </div>
+                  <p class="country-card__visited-number">5326</p>
                 </div>
             </div>
           </li>
         </ul>
 
-        <a class="show-all countries__show-all" href="">
-          <span class="show-all__text">Показать все</span>
-          <span class="show-all__arrow"></span>
-        </a>
+        <a class="countries__show-all" href="">Показать все</a>
       </section>
 
       <section class="travelmates main__travelmates">

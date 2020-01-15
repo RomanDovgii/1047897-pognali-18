@@ -1,0 +1,61 @@
+.countries {
+  position: relative;
+  z-index: 8;
+  background: #edeff6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: -50px;
+  padding-bottom: 30px;
+}
+
+.countries__heading {
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff8d30;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.countries__text {
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+  padding-left: 50px;
+}
+
+.countries__show-all {
+  position: relative;
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 62px;
+  text-decoration: none;
+  color: #1d2e5b;
+  display: block;
+  width: 270px;
+  height: 62px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #ffd74b;
+  box-sizing: border-box;
+  padding-left: 24px;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url("../../img/icons/triangle-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 24px;
+    right: 21px;
+  }
+}

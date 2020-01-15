@@ -1,0 +1,33 @@
+.top-menu {
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #161c35;
+}
+
+.top-menu__main-functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-menu__logo-link {
+  display: block;
+  text-decoration: none;
+  margin-top: 26px;
+  margin-left: 25px;
+}
+
+.top-menu__button {
+  border: none;
+  background: #161c35 url("../../img/icons/recolorized/menu-white.svg");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 11px;
+  margin-top: 31px;
+  margin-right: 24px;
+}
+
+.top-menu__more-info {
+  margin: 0;
+  padding: 0;
+}

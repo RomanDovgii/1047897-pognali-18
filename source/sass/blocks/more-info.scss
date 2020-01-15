@@ -1,0 +1,46 @@
+.more-info {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-info__main-functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.more-info__logo-link {
+  text-decoration: none;
+  margin-top: 26px;
+  margin-left: 25px;
+}
+
+.more-info__close-button {
+  border: none;
+  background: #ffffff url("../../img/icons/filter-close.svg");
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+  margin-top: 27px;
+  margin-right: 28px;
+}
+
+.more-info__auth-link {
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  text-decoration: none;
+  color: #161c35;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  width: 270px;
+  height: 50px;
+  background-color: #ffd74b;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 38px;
+}
