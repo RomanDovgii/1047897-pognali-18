@@ -15,6 +15,12 @@
   text-decoration: none;
   margin-top: 26px;
   margin-left: 25px;
+  &--form {
+    margin-top: 19px;
+  }
+  &--catalog {
+    margin-top: 19px;
+  }
 }
 
 .top-menu__button {
@@ -25,6 +31,14 @@
   height: 11px;
   margin-top: 31px;
   margin-right: 24px;
+  &--form {
+    margin-top: 23px;
+    margin-right: 25px;
+  }
+  &--catalog {
+    margin-top: 23px;
+    margin-right: 25px;
+  }
 }
 
 .top-menu__more-info {

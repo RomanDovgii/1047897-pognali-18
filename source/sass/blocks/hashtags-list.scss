@@ -1,0 +1,24 @@
+.hashtags-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hashtags-list__link {
+  font-family: $main-font;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #444444;
+  &::before {
+    content: "#"
+  }
+}

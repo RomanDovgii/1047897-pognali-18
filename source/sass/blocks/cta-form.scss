@@ -1,0 +1,97 @@
+.cta-form {
+  background-color: #192144;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 13px;
+}
+
+.cta-form__heading {
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff8d30;
+  width: 210px;
+  margin: 0 auto;
+  padding-top: 121px;
+}
+
+.cta-form__text {
+  text-align: center;
+  font-family: $main-font;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--questions {
+    margin-top: 7px;
+  }
+}
+
+.cta-form__span {
+  width: 210px;
+  &--wide {
+    width: 100%;
+  }
+}
+
+.cta-form__link {
+  color: #ffd74b;
+}
+
+.cta-form__email-form {
+  width: 270px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 31px;
+  margin-left: 25px;
+}
+
+.cta-form__input {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  width: 270px;
+  height: 62px;
+  border-radius: 10px;
+  &::placeholder {
+    font-family: $main-font;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 60px;
+    color: #444444;
+    padding-left: 23px;
+    opacity: 0.3;
+  }
+}
+
+.cta-form__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  display: block;
+  height: 62px;
+  width: 60px;
+  border-radius: 10px;
+  background: #ffd74b url("./../../img/icons/recolorized/blue/triangle-arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: 27px 50%;
+  background-size: 10px 14px;
+}
+
+.cta-form__contacts-list {
+  margin-top: 19px;
+  padding-left: 0;
+  margin-left: 25px;
+}

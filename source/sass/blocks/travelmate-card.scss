@@ -1,0 +1,82 @@
+.travelmate-card {
+  position: relative;
+  width: 270px;
+  height: 427px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.travelmate-card__mate-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.travelmate-card__level {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.travelmate-card__about-mate {
+  width: 270px;
+  height: 157px;
+  display: flex;
+  flex-direction: column;
+}
+
+.travelmate-card__name-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+}
+
+.travelmate-card__name-link {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: -16px;
+}
+
+.travelmate-card__name {
+  position: relative;
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 21px;
+  color: #1d2e5b;
+  margin-top: 25px;
+  margin-left: -20px;
+}
+
+.travelmate-card__indicator {
+  position: relative;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  margin-right: 32px;
+  margin-top: 5px;
+  &--off {
+    background: #f97676;
+  }
+  &--on {
+    background: #81e31e;
+  }
+}
+
+.travelmate-card__countries-list {
+  order: -1;
+}
+
+.travelmate-card__hashtags-list {
+  margin-top: -6px;
+}
+
+.travelmate-card__transport-list {
+  margin-top: 15px;
+}

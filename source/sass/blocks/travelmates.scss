@@ -1,38 +1,50 @@
-.countries {
-  position: relative;
-  z-index: 8;
-  background: #edeff6;
+.travelmates {
+  background: #192144;
+  padding-bottom: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  margin-top: -50px;
-  padding-bottom: 30px;
 }
 
-.countries__heading {
-  font-family: "Blogger Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 24px;
+.travelmates__heading {
+  font-family: $main-font;
   color: #ff8d30;
-  padding-top: 100px;
-  padding-left: 50px;
+  padding-top: 97px;
+  margin-left: 50px;
 }
 
-.countries__text {
-  font-family: "Blogger Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #444444;
+.travelmates__text {
+  font-family: $main-font;
+  color: #ffffff;
   padding-left: 50px;
   padding-right: 50px;
+  &--thin {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &--bold {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
 }
 
-.countries__show-all {
+.travelmates__list {
+  padding-left: 0;
+  margin-top: 58px;
+}
+
+.travelmates__travelmate-card {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.travelmates__show-all {
   position: relative;
-  font-family: "Blogger Sans", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
@@ -47,7 +59,7 @@
   background: #ffd74b;
   box-sizing: border-box;
   padding-left: 24px;
-  margin-top: 26px;
+  margin-top: 20px;
   &::after {
     content: "";
     position: absolute;

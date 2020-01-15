@@ -1,0 +1,55 @@
+.rates {
+  background-color: #edeff6;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 35px;
+}
+
+.rates__heading-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  &::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: url("./../../img/icons/rates@1x.png");
+    background-repeat: no-repeat;
+    background-size: 99px 99px;
+    margin-left: 36px;
+    margin-top: 7px;
+  }
+}
+
+.rates__rates-list {
+  margin-left: 50px;
+}
+
+.rates__heading {
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff8d30;
+  width: 108px;
+  margin-left: 50px;
+}
+
+.rates__button {
+  display: block;
+  background: none;
+  border: none;
+  width: 290px;
+  margin: 0 auto;
+  margin-top: -7px;
+}
+
+.rates__button-text {
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #192144;
+}

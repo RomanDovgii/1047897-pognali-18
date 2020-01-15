@@ -1,9 +1,6 @@
 .contacts-list {
   list-style: none;
   text-align: left;
-  margin-top: 51px;
-  padding-left: 0;
-  margin-left: 25px;
 }
 
 .contacts-list__item {
@@ -22,33 +19,64 @@
   color: #192144;
   display: flex;
   flex-direction: row;
-}
-
-.contacts-list__link--phone {
-  &::before {
-    content: "";
-    display: flex;
-    width: 45px;
-    height: 45px;
-    background: #192144 url("../../img/icons/recolorized/contacts-phone-yellow.svg");
-    background-size: 18px 18px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+  &--cta {
+    color: #ffd74b;
   }
-}
-
-.contacts-list__link--email {
-  &::before {
-    content: "";
-    display: flex;
-    width: 45px;
-    height: 45px;
-    background: #192144 url("../../img/icons/recolorized/contacts-mail-yellow.svg");
-    background-size: 18px 18px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+  &--phone {
+    &::before {
+      content: "";
+      display: flex;
+      width: 45px;
+      height: 45px;
+      background: #192144 url("../../img/icons/recolorized/contacts-phone-yellow.svg");
+      background-size: 18px 18px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  }
+  &--phone-cta {
+    &::before {
+      content: "";
+      display: flex;
+      width: 45px;
+      height: 45px;
+      background: #121936 url("../../img/icons/recolorized/contacts-phone-yellow.svg");
+      background-size: 18px 18px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  }
+  &--email {
+    &::before {
+      content: "";
+      display: flex;
+      width: 45px;
+      height: 45px;
+      background: #192144 url("../../img/icons/recolorized/contacts-mail-yellow.svg");
+      background-size: 18px 18px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  }
+  &--email-cta {
+    &::before {
+      content: "";
+      display: flex;
+      width: 45px;
+      height: 45px;
+      background: #121936 url("../../img/icons/recolorized/contacts-mail-yellow.svg");
+      background-size: 18px 18px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
   }
 }
 

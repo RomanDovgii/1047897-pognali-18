@@ -1,0 +1,62 @@
+.transport-list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.transport-list__item {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  &--plane {
+    background: url("./../../img/transport/plane.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.15;
+  }
+  &--plane-active {
+    background: url("./../../img/transport/recolorized/blue/plane.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+  }
+  &--bus {
+    background: url("./../../img/transport/bus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.15;
+  }
+  &--bus-active {
+    background: url("./../../img/transport/recolorized/blue/bus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+  }
+  &--bycicle {
+    background: url("./../../img/transport/bike.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.15;
+  }
+  &--bycicle-active {
+    background: url("./../../img/transport/recolorized/blue/bike.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+  }
+  &--run {
+    background: url("./../../img/transport/run.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.15;
+  }
+  &--run-active {
+    background: url("./../../img/transport/recolorized/blue/run.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+  }
+}

@@ -5,28 +5,31 @@
     <title>HTML Academy: Погнали</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
-
+  <body class="body">
     <header class="header">
       <section class="top-menu header__top-menu">
-        <a href="" class="top-menu__logo-link">
-          <img class="top-menu__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
-        </a>
-        <button class="top-menu__button" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-
-        <div class="more-info top-menu__more-info">
-          <a href="" class="more-info__logo-link">
-            <img class="more-info__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
+        <div class="top-menu__main-functions">
+          <a href="index.html" class="top-menu__logo-link top-menu__logo-link--form">
+            <img class="top-menu__logo-img" src="./img/mobile/logo-mobile-white@1x.png" width="100" height="20" alt="Погнали?">
           </a>
-          <button class="more-info__close-button" type="button" >
-            <span class="visually-hidden">Закрыть меню</span>
+          <button class="top-menu__button top-menu__button--form" type="button">
+            <span class="visually-hidden">Открыть меню</span>
           </button>
+        </div>
+        <div class="more-info top-menu__more-info visually-hidden">
+          <div class="more-info__main-functions">
+            <a href="" class="more-info__logo-link">
+              <img class="more-info__logo-img" src="./img/mobile/logo-mobile-blue@1x.png" width="100" height="20" alt="Погнали?">
+            </a>
+            <button class="more-info__close-button" type="button" >
+              <span class="visually-hidden">Закрыть меню</span>
+            </button>
+          </div>
+
 
           <ul class="info-list more-info__info-list">
             <li class="info-list__item">
-              <a class="info-list__link" href="">О сервисе</a>
+              <a class="info-list__link info-list__link--active" href="">О сервисе</a>
             </li>
             <li class="info-list__item">
               <a class="info-list__link info-list__link--active" href="">Направления</a>
@@ -36,17 +39,17 @@
             </li>
           </ul>
 
-          <a class="auth-link more-info__auth-link" href="">Авторизация</a>
+          <a class="more-info__auth-link" href="">Авторизация</a>
 
           <ul class="contacts-list about__contacts-list">
             <li class="contacts-list__item">
               <a class="contacts-list__link contacts-list__link--phone" href="tel:88005558628">
-                <span class="contacts-list__phone">8 800 555-86-28</span>
+                <span class="contacts-list__span contacts-list__phone">8 800 555-86-28</span>
               </a>
             </li>
             <li class="contacts-list__item">
               <a class="contacts-list__link contacts-list__link--email" href="mailto:mail@htmlacademy.ru">
-                <span class="contacts-list__email">mail@htmlacademy.ru</span>
+                <span class="contacts-list__span contacts-list__email">mail@htmlacademy.ru</span>
               </a>
             </li>
           </ul>
@@ -73,9 +76,10 @@
     </header>
 
     <main class="main">
-      <section class="intro main__intro">
-        <h1>Направления</h1>
+      <section class="main__heading-section">
+        <h1 class="main__heading main__heading--form">Направления</h1>
       </section>
+
       <section class="personal-info main__personal-info">
         <h2 class="visually-hidden">Обновить профиль</h2>
         <div class="level personal-info__level">
@@ -401,21 +405,21 @@
     <footer class="footer">
       <section class="footer-info footer__footer-info">
         <a href="" class="footer-info__logo-link">
-          <img class="footer-info__logo-img" src="https://via.placeholder.com/150x150" width="100" height="20" alt="Погнали?">
+          <img class="footer-info__logo-img" src="./img/mobile/logo-mobile-blue@1x.png" width="100" height="20" alt="Погнали?">
         </a>
         <ul class="social-list footer-info__social-list">
-          <li class="social-list__item">
-            <a class="social-list__link social-list__link--facebook" href="">
+          <li class="social-list__item social-list__item--footer">
+            <a class="social-list__link social-list__link--footer social-list__link--facebook social-list__link--facebook-footer" href="">
               <span class="visually-hidden">Наш Facebook</span>
             </a>
           </li>
-          <li class="social-list__item">
-            <a class="social-list__link social-list__link--vk" href="">
+          <li class="social-list__item social-list__item--footer">
+            <a class="social-list__link social-list__link--footer social-list__link--vk social-list__link--vk-footer" href="">
               <span class="visually-hidden">Наш VK</span>
             </a>
           </li>
-          <li class="social-list__item">
-            <a class="social-list__link social-list__link-instagram" href="">
+          <li class="social-list__item social-list__item--footer">
+            <a class="social-list__link social-list__link--footer social-list__link--instagram social-list__link--instagram-footer" href="">
               <span class="visually-hidden">Наш instagram</span>
             </a>
           </li>
@@ -424,7 +428,7 @@
       <section class="developed-by footer__developed-by">
         <p class="developed-by__text">Разработано</p>
         <a class="developed-by__link" href="">
-          <img class="developed-by__logo-img" width="27" height="34" src="https://via.placeholder.com/150x150" alt="HTML Academy">
+          <img class="developed-by__logo-img" width="27" height="34" src="./img/developed-by/recolorized/dark-blue/htmlacademy.svg" alt="HTML Academy">
         </a>
       </section>
     </footer>
