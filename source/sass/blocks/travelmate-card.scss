@@ -6,17 +6,51 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  &--catalog {
+    width: 270px;
+    height: 415px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding-bottom: 11px;
+    margin-top: 10px;
+  }
 }
 
 .travelmate-card__mate-img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  &--catalog {
+    border-radius: 50%;
+    order: 1;
+    margin-left: 18px;
+    margin-top: 15px;
+  }
 }
 
 .travelmate-card__level {
   position: absolute;
   top: 16px;
   left: 16px;
+  &--catalog {
+    margin: 0;
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $main-font;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 45px;
+    color: #1d2e5b;
+    margin-top: -25px;
+    margin-left: 8px;
+  }
 }
 
 .travelmate-card__about-mate {
@@ -31,6 +65,15 @@
   display: flex;
   justify-content: center;
   margin-top: -15px;
+  &--catalog {
+    order: 2;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    height: 80px;
+  }
 }
 
 .travelmate-card__name-link {
@@ -51,6 +94,12 @@
   color: #1d2e5b;
   margin-top: 25px;
   margin-left: -20px;
+  &--catalog {
+    width: 110px;
+    margin: 0;
+    margin-top: 11px;
+    margin-left: 17px;
+  }
 }
 
 .travelmate-card__indicator {
@@ -67,16 +116,125 @@
   &--on {
     background: #81e31e;
   }
+  &--catalog {
+    order: 4;
+    margin-top: 23px;
+    margin-right: 0;
+    margin-left: 27px;
+    width: 6px;
+    height: 6px;
+  }
 }
 
 .travelmate-card__countries-list {
   order: -1;
+  &--catalog {
+    order: 7;
+  }
 }
 
 .travelmate-card__hashtags-list {
   margin-top: -6px;
+  &--catalog {
+    order: 5;
+  }
+}
+
+.travelmate-card__countries-wrapper {
+  order: 6;
+  width: 415px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+
+}
+
+.travelmate-card__text {
+  font-family: $main-font;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #444444;
+  text-transform: lowercase;
+  &--annotation {
+    padding-left: 26px;
+  }
+}
+
+.travelmate-card__transport-wrapper {
+  order: 7;
 }
 
 .travelmate-card__transport-list {
   margin-top: 15px;
+}
+
+.travelmate-card__likes-wrapper {
+  order: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  &--other {
+    display: none;
+  }
+  &--mobile {
+    margin-left: -22px;
+  }
+}
+
+.travelmate-card__like-button {
+  display: block;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #edeff6 url("./../../img/icons/recolorized/gray/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 13px 11px;
+  &--active {
+    background: #f9eaea url("./../../img/icons/recolorized/red/heart-active.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13px 11px;
+  }
+}
+
+.travelmate-card__level-wrapper {
+  order: 8;
+  margin-left: auto;
+  margin-right: 23px;
+}
+
+.travelmate-card__lets-go {
+  order: 9;
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 40px;
+  color: #161c35;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  background: #ffd74b;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.travelmate-card__like-number {
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #161c35;
+  &--mobile {
+    margin-top: 10px;
+    margin-left: 7px;
+  }
 }

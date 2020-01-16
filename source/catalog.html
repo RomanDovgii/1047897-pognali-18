@@ -339,396 +339,382 @@
               </button>
             </div>
           </div>
-
           <button class="travelmates-filter__submit" type="submit">Показать</button>
         </form>
-
-
-
       </section>
 
       <section class="travelmates-sorted main__travelmates-sorted">
-        <ul class="travelmates-list travelmates-sorted__travelmates-list">
-          <li class="travelmates-list__item">
-            <div class="travelmate-card travelmates-list__travelmate-card">
-              <div class="travelmate-card__user-img-wrapper">
-                <img class="travelmate-card__user-img" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
-              </div>
+        <ul class="travelmates-sorted__list">
+          <li class="travelmates-sorted__list-item">
+            <div class="travelmate-card travelmate-card--catalog travelmates-sorted__travelmate-card">
+                <img class="travelmate-card__mate-img travelmate-card__mate-img--catalog" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
 
-              <div class="name-wrapper travelmate-card__name-wrapper">
-                <h3 class="name-wrapper__name">Таня фирсова</h3>
-                <div class="name-wrapper__indicator name-wrapper__indicator--off">
-                  <span class="visually-hidden">offline</span>
+              <div class="travelmate-card__name-wrapper travelmate-card__name-wrapper--catalog">
+                <h3 class="travelmate-card__name travelmate-card__name--catalog">Таня Фирсова</h3>
+                <div class="travelmate-card__likes-wrapper travelmate-card__likes-wrapper--mobile">
+                  <a class="travelmate-card__like-button travelmate-card__like-button--active" href="">
+                    <span class="visually-hidden">Нравится</span>
+                  </a>
+                  <p class="travelmate-card__like-number travelmate-card__like-number--mobile">1,5 М</p>
                 </div>
               </div>
+              <div class="travelmate-card__indicator travelmate-card__indicator--catalog travelmate-card__indicator--off">
+                <span class="visually-hidden">offline</span>
+              </div>
 
-              <div class="likes-wrapper travelmate-card__likes-wrapper">
-                <a class="like-wrapper__like-button" href="">
+              <div class="travelmate-card__likes-wrapper--other">
+                <a class="travelmate-card__like-button travelmate-card__like-button--active" href="">
                   <span class="visually-hidden">Нравится</span>
                 </a>
-                <p class="like-wrapper__like-number">1,5 М</p>
+                <p class="travelmate-card__like-number">1,5 М</p>
               </div>
 
-              <div class="hashtags-wrapper travelmate-card__hashtags-wrapper">
-                <ul class="hashtags-list hashtags-wrapper__hashtags-list">
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">ЗОЖ</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">ПП</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">Фитнес</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">пляж</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">авокадо</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">смузи</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="countries-wrapper travelmate-card__countries-wrapper">
-                <p class="countries-wrapper__text">Хочет посетить</p>
-                <ul class="countries-list countries-wrapper__countries-list">
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-sri-lanka"></span>
-                      <p class="countries-list__text">Шри-ланка</p>
+              <ul class="hashtags-list hashtags-list--catalog travelmate-card__hashtags-list travelmate-card__hashtags-list--catalog">
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">ЗОЖ</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">ПП</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">Фитнес</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">пляж</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">авокадо</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">смузи</a>
+                </li>
+              </ul>
+              <div class="travelmate-card__countries-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Хочет посетить:</p>
+                <ul class="countries-list countries-list--catalog travelmate-card__countries-list travelmate-card__countries-list--catalog">
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--sri-lanka">Шри-ланка</p>
                     </a>
                   </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-thailand"></span>
-                      <p class="countries-list__text">Таиланд</p>
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--thailand">Таиланд</p>
                     </a>
                   </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-seychelles"></span>
-                      <p class="countries-list__text">Сейшеллы</p>
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--seishells">Сейшелы</p>
                     </a>
                   </li>
                 </ul>
               </div>
 
-              <div class="transport-wrapper travelmate-card__transport-wrapper">
-                <p>Транспорт:</p>
-                <ul class="transport-list transport-wrapper__transport-list">
-                  <li class="transport-list__item transport-type-plane transport-list__item--active ">
+
+              <div class="travelmate-card__transport-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Транспорт:</p>
+                <ul class="transport-list transport-list--catalog travelmate-card__transport-list">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-plane transport-list__item--catalog-plane-active">
                     <span class="visually-hidden">Самолет</span>
                   </li>
-                  <li class="transport-list__item transport-type-bus">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bus">
                     <span class="visually-hidden">Автобус</span>
                   </li>
-                  <li class="transport-list__item transport-type-bycicle">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bycicle">
                     <span class="visually-hidden">Велосипед</span>
                   </li>
-                  <li class="transport-list__item transport-type-run">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-run">
                     <span class="visually-hidden">Пешком</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="level-wrapper travelmate-card__level-wrapper">
-                <p class="level-wrapper__text">левел:</p>
-                <p class="level-wrapper__text">
-                  <span class="level-wrapper__number">99</span>
-                </p>
+              <div class="travelmate-card__level-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">левел:</p>
+                <p class="travelmate-card__level travelmate-card__level--catalog">99</p>
               </div>
 
-              <a class="travelmate-card__lets-go" href="">Позвать</a>
+              <a class="travelmate-card__lets-go" href="">Позвать!</a>
             </div>
           </li>
 
           <li class="travelmates-list__item">
-            <div class="travelmate-card travelmates-list__travelmate-card">
-              <div class="travelmate-card__user-img-wrapper">
-                <img class="travelmate-card__user-img" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
-              </div>
+            <div class="travelmate-card travelmate-card--catalog travelmates-sorted__travelmate-card">
+                <img class="travelmate-card__mate-img travelmate-card__mate-img--catalog" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
 
-              <div class="name-wrapper travelmate-card__name-wrapper">
-                <h3 class="name-wrapper__name">Петя Демин</h3>
-                <div class="name-wrapper__indicator name-wrapper__indicator--off">
-                  <span class="visually-hidden">offline</span>
+              <div class="travelmate-card__name-wrapper travelmate-card__name-wrapper--catalog">
+                <h3 class="travelmate-card__name travelmate-card__name--catalog">Петя Демин</h3>
+                <div class="travelmate-card__likes-wrapper travelmate-card__likes-wrapper--mobile">
+                  <a class="travelmate-card__like-button" href="">
+                    <span class="visually-hidden">Нравится</span>
+                  </a>
+                  <p class="travelmate-card__like-number travelmate-card__like-number--mobile">150</p>
                 </div>
               </div>
+              <div class="travelmate-card__indicator travelmate-card__indicator--catalog travelmate-card__indicator--off">
+                <span class="visually-hidden">offline</span>
+              </div>
 
-              <div class="likes-wrapper travelmate-card__likes-wrapper">
-                <a class="like-wrapper__like-button" href="">
+              <div class="travelmate-card__likes-wrapper--other">
+                <a class="travelmate-card__like-button 23" href="">
                   <span class="visually-hidden">Нравится</span>
                 </a>
-                <p class="like-wrapper__like-number">150</p>
+                <p class="travelmate-card__like-number">150</p>
               </div>
 
-              <div class="hashtags-wrapper travelmate-card__hashtags-wrapper">
-                <ul class="hashtags-list hashtags-wrapper__hashtags-list">
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">бургер</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">бар</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">футбол</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">концерт</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">крафт</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="countries-wrapper travelmate-card__countries-wrapper">
-                <p class="countries-wrapper__text">Хочет посетить</p>
-                <ul class="countries-list countries-wrapper__countries-list">
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-belgium"></span>
-                      <p class="countries-list__text">Бельгия</p>
+              <ul class="hashtags-list hashtags-list--catalog travelmate-card__hashtags-list travelmate-card__hashtags-list--catalog">
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">бургер</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">бар</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">футбол</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">концерт</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">крафт</a>
+                </li>
+              </ul>
+              <div class="travelmate-card__countries-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Хочет посетить:</p>
+                <ul class="countries-list countries-list--catalog travelmate-card__countries-list travelmate-card__countries-list--catalog">
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--sri-lanka">Бельгия</p>
                     </a>
                   </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-czech"></span>
-                      <p class="countries-list__text">Чехия</p>
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--thailand">Чехия</p>
                     </a>
                   </li>
                 </ul>
               </div>
 
-              <div class="transport-wrapper travelmate-card__transport-wrapper">
-                <p>Транспорт:</p>
-                <ul class="transport-list transport-wrapper__transport-list">
-                  <li class="transport-list__item transport-type-plane transport-list__item--active ">
+
+              <div class="travelmate-card__transport-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Транспорт:</p>
+                <ul class="transport-list transport-list--catalog travelmate-card__transport-list">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-plane transport-list__item--catalog-plane-active">
                     <span class="visually-hidden">Самолет</span>
                   </li>
-                  <li class="transport-list__item transport-type-bus transport-list__item--active">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bus transport-list__item--catalog-bus-active">
                     <span class="visually-hidden">Автобус</span>
                   </li>
-                  <li class="transport-list__item transport-type-bycicle">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bycicle">
                     <span class="visually-hidden">Велосипед</span>
                   </li>
-                  <li class="transport-list__item transport-type-run transport-list__item--active">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-run transport-list__item--catalog-run-active">
                     <span class="visually-hidden">Пешком</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="level-wrapper travelmate-card__level-wrapper">
-                <p class="level-wrapper__text">левел:</p>
-                <p class="level-wrapper__text">
-                  <span class="level-wrapper__number">80</span>
-                </p>
+              <div class="travelmate-card__level-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">левел:</p>
+                <p class="travelmate-card__level travelmate-card__level--catalog">80</p>
               </div>
 
-              <a class="travelmate-card__lets-go" href="">Позвать</a>
+              <a class="travelmate-card__lets-go" href="">Позвать!</a>
             </div>
           </li>
 
           <li class="travelmates-list__item">
-            <div class="travelmate-card travelmates-list__travelmate-card">
-              <div class="travelmate-card__user-img-wrapper">
-                <img class="travelmate-card__user-img" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
-              </div>
+            <div class="travelmate-card travelmate-card--catalog travelmates-sorted__travelmate-card">
+                <img class="travelmate-card__mate-img travelmate-card__mate-img--catalog" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
 
-              <div class="name-wrapper travelmate-card__name-wrapper">
-                <h3 class="name-wrapper__name">Марк Смолов</h3>
-                <div class="name-wrapper__indicator name-wrapper__indicator--off">
-                  <span class="visually-hidden">offline</span>
+              <div class="travelmate-card__name-wrapper travelmate-card__name-wrapper--catalog">
+                <h3 class="travelmate-card__name travelmate-card__name--catalog">Марк Смолов</h3>
+                <div class="travelmate-card__likes-wrapper travelmate-card__likes-wrapper--mobile">
+                  <a class="travelmate-card__like-button 23" href="">
+                    <span class="visually-hidden">Нравится</span>
+                  </a>
+                  <p class="travelmate-card__like-number travelmate-card__like-number--mobile">1700</p>
                 </div>
               </div>
+              <div class="travelmate-card__indicator travelmate-card__indicator--catalog travelmate-card__indicator--off">
+                <span class="visually-hidden">offline</span>
+              </div>
 
-              <div class="likes-wrapper travelmate-card__likes-wrapper">
-                <a class="like-wrapper__like-button" href="">
+              <div class="travelmate-card__likes-wrapper--other">
+                <a class="travelmate-card__like-button 23" href="">
                   <span class="visually-hidden">Нравится</span>
                 </a>
-                <p class="like-wrapper__like-number">1700</p>
+                <p class="travelmate-card__like-number">1700</p>
               </div>
 
-              <div class="hashtags-wrapper travelmate-card__hashtags-wrapper">
-                <ul class="hashtags-list hashtags-wrapper__hashtags-list">
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">рэп</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">тату</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">хайпбист</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">кроссовки</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">суприм</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="countries-wrapper travelmate-card__countries-wrapper">
-                <p class="countries-wrapper__text">Хочет посетить</p>
-                <ul class="countries-list countries-wrapper__countries-list">
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-usa"></span>
-                      <p class="countries-list__text">США</p>
+              <ul class="hashtags-list hashtags-list--catalog travelmate-card__hashtags-list travelmate-card__hashtags-list--catalog">
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">ЗОЖ</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">ПП</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">Фитнес</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">пляж</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">авокадо</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">смузи</a>
+                </li>
+              </ul>
+              <div class="travelmate-card__countries-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Хочет посетить:</p>
+                <ul class="countries-list countries-list--catalog travelmate-card__countries-list travelmate-card__countries-list--catalog">
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--sri-lanka">США</p>
                     </a>
                   </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-australia"></span>
-                      <p class="countries-list__text">Австралия</p>
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--thailand">Австралия</p>
                     </a>
                   </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-dominican"></span>
-                      <p class="countries-list__text">Доминикана</p>
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--seishells">Доминикана</p>
                     </a>
                   </li>
                 </ul>
               </div>
 
-              <div class="transport-wrapper travelmate-card__transport-wrapper">
-                <p>Транспорт:</p>
-                <ul class="transport-list transport-wrapper__transport-list">
-                  <li class="transport-list__item transport-type-plane transport-list__item--active ">
+
+              <div class="travelmate-card__transport-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Транспорт:</p>
+                <ul class="transport-list transport-list--catalog travelmate-card__transport-list">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-plane transport-list__item--catalog-plane-active">
                     <span class="visually-hidden">Самолет</span>
                   </li>
-                  <li class="transport-list__item transport-type-bus">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bus">
                     <span class="visually-hidden">Автобус</span>
                   </li>
-                  <li class="transport-list__item transport-type-bycicle transport-list__item--active">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bycicle transport-list__item--catalog-bycicle-active">
                     <span class="visually-hidden">Велосипед</span>
                   </li>
-                  <li class="transport-list__item transport-type-run">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-run">
                     <span class="visually-hidden">Пешком</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="level-wrapper travelmate-card__level-wrapper">
-                <p class="level-wrapper__text">левел:</p>
-                <p class="level-wrapper__text">
-                  <span class="level-wrapper__number">25</span>
-                </p>
+              <div class="travelmate-card__level-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">левел:</p>
+                <p class="travelmate-card__level travelmate-card__level--catalog">25</p>
               </div>
 
-              <a class="travelmate-card__lets-go" href="">Позвать</a>
+              <a class="travelmate-card__lets-go" href="">Позвать!</a>
             </div>
           </li>
 
           <li class="travelmates-list__item">
-            <div class="travelmate-card travelmates-list__travelmate-card">
-              <div class="travelmate-card__user-img-wrapper">
-                <img class="travelmate-card__user-img" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
-              </div>
+            <div class="travelmate-card travelmate-card--catalog travelmates-sorted__travelmate-card">
+                <img class="travelmate-card__mate-img travelmate-card__mate-img--catalog" src="https://via.placeholder.com/150x150" width="70" height="70" alt="фото пользователя">
 
-              <div class="name-wrapper travelmate-card__name-wrapper">
-                <h3 class="name-wrapper__name">Лариса Роговая</h3>
-                <div class="name-wrapper__indicator name-wrapper__indicator--on">
-                  <span class="visually-hidden">online</span>
+              <div class="travelmate-card__name-wrapper travelmate-card__name-wrapper--catalog">
+                <h3 class="travelmate-card__name travelmate-card__name--catalog">Лариса Роговая</h3>
+                <div class="travelmate-card__likes-wrapper travelmate-card__likes-wrapper--mobile">
+                  <a class="travelmate-card__like-button 23" href="">
+                    <span class="visually-hidden">Нравится</span>
+                  </a>
+                  <p class="travelmate-card__like-number travelmate-card__like-number--mobile">23</p>
                 </div>
               </div>
+              <div class="travelmate-card__indicator travelmate-card__indicator--catalog travelmate-card__indicator--on">
+                <span class="visually-hidden">online</span>
+              </div>
 
-              <div class="likes-wrapper travelmate-card__likes-wrapper">
-                <a class="like-wrapper__like-button" href="">
+              <div class="travelmate-card__likes-wrapper--other">
+                <a class="travelmate-card__like-button 23" href="">
                   <span class="visually-hidden">Нравится</span>
                 </a>
-                <p class="like-wrapper__like-number">23</p>
+                <p class="travelmate-card__like-number">23</p>
               </div>
 
-              <div class="hashtags-wrapper travelmate-card__hashtags-wrapper">
-                <ul class="hashtags-list hashtags-wrapper__hashtags-list">
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">образование</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">карьера</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">учеба</a>
-                  </li>
-                  <li class="hashtags-list__item">
-                    <a class="hashtags-list__link " href="">линкедин</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="countries-wrapper travelmate-card__countries-wrapper">
-                <p class="countries-wrapper__text">Хочет посетить</p>
-                <ul class="countries-list countries-wrapper__countries-list">
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-uk"></span>
-                      <p class="countries-list__text">Великобритания</p>
+              <ul class="hashtags-list hashtags-list--catalog travelmate-card__hashtags-list travelmate-card__hashtags-list--catalog">
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">ЗОЖ</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">ПП</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">Фитнес</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">пляж</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">авокадо</a>
+                </li>
+                <li class="hashtags-list__item hashtags-list__item--catalog">
+                  <a class="hashtags-list__link hashtags-list__link--catalog" href="">смузи</a>
+                </li>
+              </ul>
+              <div class="travelmate-card__countries-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Хочет посетить:</p>
+                <ul class="countries-list countries-list--catalog travelmate-card__countries-list travelmate-card__countries-list--catalog">
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--sri-lanka">Великобритания</p>
                     </a>
                   </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-germany"></span>
-                      <p class="countries-list__text">Германия</p>
-                    </a>
-                  </li>
-                  <li class="countries-list__item">
-                    <a class="countries-list__link" href="">
-                      <span class="countries-list__img countries-list__link--flag-dominican"></span>
-                      <p class="countries-list__text">Доминикана</p>
+                  <li class="countries-list__item countries-list__item--catalog">
+                    <a class="countries-list__link countries-list__link--catalog" href="">
+                      <p class="countries-list__text ountries-list__text--thailand">Германия</p>
                     </a>
                   </li>
                 </ul>
               </div>
 
-              <div class="transport-wrapper travelmate-card__transport-wrapper">
-                <p>Транспорт:</p>
-                <ul class="transport-list transport-wrapper__transport-list">
-                  <li class="transport-list__item transport-type-plane transport-list__item--active ">
+
+              <div class="travelmate-card__transport-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">Транспорт:</p>
+                <ul class="transport-list transport-list--catalog travelmate-card__transport-list">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-plane transport-list__item--catalog-plane-active">
                     <span class="visually-hidden">Самолет</span>
                   </li>
-                  <li class="transport-list__item transport-type-bus transport-list__item--active">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bus transport-list__item--catalog-bus-active">
                     <span class="visually-hidden">Автобус</span>
                   </li>
-                  <li class="transport-list__item transport-type-bycicle">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-bycicle">
                     <span class="visually-hidden">Велосипед</span>
                   </li>
-                  <li class="transport-list__item transport-type-run">
+                  <li class="transport-list__item transport-list__item--catalog transport-list__item--catalog-run">
                     <span class="visually-hidden">Пешком</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="level-wrapper travelmate-card__level-wrapper">
-                <p class="level-wrapper__text">левел:</p>
-                <p class="level-wrapper__text">
-                  <span class="level-wrapper__number">50</span>
-                </p>
+              <div class="travelmate-card__level-wrapper">
+                <p class="travelmate-card__text travelmate-card__text--annotation">левел:</p>
+                <p class="travelmate-card__level travelmate-card__level--catalog">50</p>
               </div>
 
-              <a class="travelmate-card__lets-go" href="">Позвать</a>
+              <a class="travelmate-card__lets-go" href="">Позвать!</a>
             </div>
           </li>
         </ul>
 
-        <a class="show-more travelmates-sorted__show-more" href="">
-          <span class="show-more__plus-img"></span>
-          Показать еще
-        </a>
+        <a class="travelmates-sorted__link travelmates-sorted__link--show-more" href="">Показать еще</a>
 
         <ul class="page-navigation travelmates-sorted__page-navigation">
           <li class="page-navigation__item">
-            <a class="page-navigation__previous-link" href="">
+            <a class="page-navigation__link page-navigation__link--previous" href="">
               <span class="visually-hidden">Предыдущая страница</span>
             </a>
           </li>
           <li class="page-navigation__item">
-            <a class="page-navigation__next-link" href="">
+            <a class="page-navigation__link page-navigation__link--next" href="">
               <span class="visually-hidden">Следующая страница</span>
             </a>
           </li>
@@ -740,7 +726,7 @@
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer footer--catalog">
       <section class="footer-info footer__footer-info">
         <a href="" class="footer-info__logo-link">
           <img class="footer-info__logo-img" src="./img/mobile/logo-mobile-blue@1x.png" width="100" height="20" alt="Погнали?">

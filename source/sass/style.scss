@@ -25,7 +25,10 @@
 @import "./blocks/rates-list.scss";
 @import "./blocks/cta-form.scss";
 @import "./blocks/contacts.scss";
+@import "./blocks/travelmates-sorted.scss";
+@import "./blocks/page-navigation.scss";
 @import "./blocks/footer.scss";
+@import "./blocks/business-rates.scss";
 @import "./blocks/footer-info.scss";
 @import "./blocks/developed-by.scss";
 @import "./blocks/visually-hidden.scss";
@@ -33,4 +36,5 @@
 
 .body {
   width: 320px;
+  margin: 0 auto;
 }

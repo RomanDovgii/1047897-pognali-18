@@ -1,0 +1,40 @@
+.travelmates-sorted {
+  background-color: #edeff6;
+  padding-bottom: 275px;
+}
+
+.travelmates-sorted__list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.travelmates-sorted__link {
+  font-family: $main-font;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 30px;
+  color: #1d2e5b;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
+  &::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url("./../../img/icons/recolorized/blue/show-more-plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 18px;
+    margin-right: 16px;
+  }
+}
+
+.travelmates-sorted__page-navigation {
+
+}
