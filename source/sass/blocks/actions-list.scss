@@ -19,18 +19,18 @@
   margin-top:-20px;
   box-sizing: border-box;
   position: relative;
-  &:first-child {
-    background-color: #ff8d30;
-  }
-  &:nth-child(2) {
+  &:nth-child(even) {
     background-color: #ffa530;
   }
-  &:nth-child(3) {
+  &:nth-child(odd) {
     background-color: #ffbd30;
   }
   &:last-child {
     background-color: #ffd74b;
     height: 80px;
+  }
+  &:first-child {
+    background-color: #ff8d30;
   }
 }
 
