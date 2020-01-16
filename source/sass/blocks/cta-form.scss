@@ -49,7 +49,6 @@
   margin: 0 auto;
   position: relative;
   margin-top: 31px;
-  margin-left: 25px;
 }
 
 .cta-form__input {
@@ -60,9 +59,7 @@
   width: 270px;
   height: 62px;
   border-radius: 10px;
-  &::placeholder {
-    font-family: $main-font;
-    font-weight: 700;
+  &::placeholder {    font-weight: 700;
 
     font-size: 18px;
     line-height: 60px;
@@ -89,7 +86,8 @@
 }
 
 .cta-form__contacts-list {
-  margin-top: 19px;
   padding-left: 0;
-  margin-left: 25px;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 19px;
 }
