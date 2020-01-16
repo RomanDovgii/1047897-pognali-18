@@ -13,19 +13,17 @@
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: -5px;
-    margin-top: -28px;
+    padding-right: 60px;
   }
 }
 
 .hashtags-list__item {
   &--catalog {
-    margin-bottom: -30px;
   }
 }
 
 .hashtags-list__link {
   font-weight: 400;
-
   font-size: 16px;
   line-height: 18px;
   margin-left: 5px;

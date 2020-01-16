@@ -22,14 +22,12 @@
 
 .about__text {
   color: #ffffff;
+  font-size: 16px;
+  line-height: 22px;
   &--thin {
     font-weight: 300;
-    font-size: 16px;
-    line-height: 22px;
   }
   &--bold {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
   }
 }
