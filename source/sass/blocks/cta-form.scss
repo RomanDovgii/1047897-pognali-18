@@ -52,19 +52,20 @@
 }
 
 .cta-form__input {
+  font-weight: 700;
   position: relative;
   box-sizing: border-box;
   display: block;
   border: none;
   width: 270px;
   height: 62px;
+  padding-left: 23px;
   border-radius: 10px;
-  &::placeholder {    font-weight: 700;
-
+  &::placeholder {
+    font-weight: 700;
     font-size: 18px;
     line-height: 60px;
     color: #444444;
-    padding-left: 23px;
     opacity: 0.3;
   }
 }
