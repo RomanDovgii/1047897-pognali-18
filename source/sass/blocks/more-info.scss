@@ -2,6 +2,7 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  padding-bottom: 23px;
 }
 
 .more-info__main-functions {
@@ -45,7 +46,12 @@
 }
 
 .more-info__contacts-list {
-  margin-top: 51px;
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 50px;
   padding-left: 0;
-  margin-left: 25px;
+}
+
+.more-info__social-list {
+  margin-top: 40px;
 }
