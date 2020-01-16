@@ -44,7 +44,6 @@
 
 
 .country-card__name {
-  font-family: $main-font;
   font-weight: 700;
   font-style: normal;
   font-size: 21px;
@@ -54,7 +53,6 @@
 
 .country-card__visited-number {
   position: relative;
-  font-family: $main-font;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -81,7 +79,6 @@
 }
 
 .country-card__slogan {
-  font-family: $main-font;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
