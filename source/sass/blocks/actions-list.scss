@@ -1,8 +1,6 @@
 .actions-list {
   list-style: none;
   width: 270px;
-  display: flex;
-  flex-direction: column;
   position: relative;
   z-index: 10;
 }
@@ -14,16 +12,12 @@
   color: #161c35;
   border-radius: 10px;
   width: 270px;
-  background-color: #ff8d30;
+    background-color: #ffbd30;
   height: 100px;
   margin-top:-20px;
-  box-sizing: border-box;
   position: relative;
   &:nth-child(even) {
     background-color: #ffa530;
-  }
-  &:nth-child(odd) {
-    background-color: #ffbd30;
   }
   &:last-child {
     background-color: #ffd74b;
