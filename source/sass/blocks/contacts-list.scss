@@ -5,7 +5,6 @@
 
 .contacts-list__item {
   display: flex;
-  flex-direction: row;
 }
 
 .contacts-list__link {
@@ -15,7 +14,6 @@
   text-transform: uppercase;
   color: #192144;
   display: flex;
-  flex-direction: row;
   &--cta {
     color: #ffd74b;
   }
@@ -75,8 +73,4 @@
       margin-right: 15px;
     }
   }
-}
-
-.contacts-list__span {
-  margin-left: 16px;
 }

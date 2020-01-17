@@ -1,5 +1,4 @@
 @import "./fonts.scss";
-@import "./blocks/body.scss";
 @import "./blocks/header.scss";
 @import "./blocks/main.scss";
 @import "./blocks/top-menu.scss";
@@ -31,12 +30,14 @@
 @import "./blocks/business-rates.scss";
 @import "./blocks/footer-info.scss";
 @import "./blocks/developed-by.scss";
-@import "./blocks/visually-hidden.scss";
+@import "./visually-hidden.scss";
 @import "./normalize.scss";
 
-.body {
+body {
   min-width: 320px;
   margin: 0 auto;
-  font-family: "Blogger Sans","Arial" ,sans-serif;
+  font-family: "Blogger Sans" ,sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }

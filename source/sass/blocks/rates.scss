@@ -7,7 +7,6 @@
 
 .rates__heading-wrapper {
   display: flex;
-  flex-direction: row;
   padding-top: 80px;
   &::after {
     content: "";
@@ -47,8 +46,29 @@
 
 .rates__button-text {
   font-weight: 700;
-
   font-size: 16px;
   line-height: 16px;
   color: #192144;
+}
+
+.rates__list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.rates__item {
+  position: relative;
+  display: flex;
+}
+
+.rates__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.rates__span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
 }

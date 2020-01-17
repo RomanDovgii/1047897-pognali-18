@@ -1,7 +1,6 @@
 .hashtags-list {
   list-style: none;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -9,35 +8,27 @@
   padding-right: 30px;
   &--catalog {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: -5px;
     padding-right: 60px;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 3px;
   }
 }
 
 .hashtags-list__item {
-  &--catalog {
-  }
-}
-
-.hashtags-list__link {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   margin-left: 5px;
-  text-decoration: none;
   color: #444444;
-  &--catalog {
-    font-size: 15px;
-    line-height: 18px;
-    margin-left: 3px;
-    &::before {
-      content: "#"
-    }
-  }
   &::before {
     content: "#"
+  }
+  a {
+    text-decoration: none;
+    color: #444444;
   }
 }
