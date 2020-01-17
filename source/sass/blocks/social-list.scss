@@ -6,42 +6,35 @@
 }
 
 .social-list__link {
+  display: block;
   text-decoration: none;
+  background-position: center;
+  background-repeat: no-repeat;
   &--facebook {
-    display: block;
     width: 23px;
     height: 23px;
     background-image: url("../img/social/recolorized/gray/facebook.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     margin-right: 20px;
   }
 
   &--vk {
-    display: block;
     width: 23px;
     height: 23px;
     background-image: url("../img/social/recolorized/gray/vk.svg");
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
   &--instagram {
-    display: block;
     width: 23px;
     height: 23px;
     background-image: url("../img/social/recolorized/gray/instagram.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 18px 18px;
     margin-left: 22px;
   }
 
   &--footer {
-    display: block;
     width: 45px;
     height: 45px;
-    background: #ffd74b;
+    background-color: #ffd74b;
     border-radius: 50%;
     margin: 0;
     margin-top: 12px;
@@ -49,22 +42,16 @@
 
   &--facebook-footer {
     background-image: url("../img/social/recolorized/blue/facebook.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 11px 21px;
   }
 
   &--vk-footer {
     background-image: url("../img/social/recolorized/blue/vk.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 23px 12px;
   }
 
   &--instagram-footer {
     background-image: url("../img/social/recolorized/blue/instagram.svg");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 18px 18px;
   }
 }

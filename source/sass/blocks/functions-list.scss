@@ -1,6 +1,7 @@
 .functions-list {
   list-style: none;
   display: flex;
+  padding-left: 21px;
 }
 
 .functions-list__link {
@@ -32,7 +33,6 @@
 .functions-list__link--auth {
   font-family: "Blogger Sans", sans-serif;
   font-weight: 700;
-
   font-size: 17px;
   line-height: 40px;
   text-align: center;
