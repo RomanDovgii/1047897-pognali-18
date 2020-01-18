@@ -2,36 +2,35 @@
   background-color: #edeff6;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding-bottom: 35px;
+  padding-bottom: 38px;
 }
 
 .rates__heading-wrapper {
   display: flex;
   padding-top: 80px;
+  width: 270px;
+  margin: 0 auto;
   &::after {
     content: "";
     width: 100px;
     height: 100px;
-    background: url("../img/icons/rates@1x.png");
+    background-image: url("../img/icons/rates@1x.png");
     background-repeat: no-repeat;
     background-size: 99px 99px;
-    margin-left: 36px;
+    margin-left: 61px;
     margin-top: 7px;
   }
 }
 
-.rates__rates-list {
-  margin-left: 50px;
-}
-
 .rates__heading {
+  margin: 0;
+  padding-top: 22px;
   font-weight: 700;
-
   font-size: 24px;
   line-height: 24px;
   color: #ff8d30;
   width: 108px;
-  margin-left: 50px;
+  padding-left: 25px;
 }
 
 .rates__button {
@@ -40,33 +39,37 @@
   border: none;
   width: 220px;
   margin: 0 auto;
-  margin-top: -7px;
   text-decoration: none;
-}
-
-.rates__button-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
   color: #192144;
 }
 
+
 .rates__list {
   list-style: none;
-  padding-left: 0px;
+  width: 270px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 22px;
+  padding-left: 25px;
+  padding-bottom: 43px;
 }
 
 .rates__item {
   position: relative;
-  display: flex;
 }
 
 .rates__text {
+  margin: 0;
   display: flex;
   flex-direction: column;
+  padding-top: 21px;
 }
 
 .rates__span {
+  margin: 0;
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;

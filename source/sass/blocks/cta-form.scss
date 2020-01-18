@@ -2,8 +2,6 @@
   background-color: #192144;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding-bottom: 13px;
-  padding-top: 121px;
 }
 
 .cta-form__heading {
@@ -18,15 +16,16 @@
 .cta-form__text {
   text-align: center;
   font-weight: 300;
-
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
+  width: 270px;
   margin: 0 auto;
   padding-top: 20px;
-  display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 13px;
+  padding-right: 13px;
   &--questions {
     margin-top: 7px;
   }
@@ -40,7 +39,7 @@
   width: 270px;
   margin: 0 auto;
   position: relative;
-  margin-top: 31px;
+  padding-top: 28px;
 }
 
 .cta-form__input {
@@ -63,7 +62,7 @@
 
 .cta-form__button {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   border: none;
   background: none;
@@ -82,4 +81,5 @@
   width: 320px;
   margin: 0 auto;
   margin-top: 19px;
+  padding-left: 25px;
 }
