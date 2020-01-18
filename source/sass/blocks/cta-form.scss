@@ -3,17 +3,16 @@
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   padding-bottom: 13px;
+  padding-top: 121px;
 }
 
 .cta-form__heading {
   font-weight: 700;
-
   font-size: 24px;
   line-height: 24px;
   color: #ff8d30;
   width: 210px;
   margin: 0 auto;
-  padding-top: 121px;
 }
 
 .cta-form__text {
@@ -30,13 +29,6 @@
   align-items: center;
   &--questions {
     margin-top: 7px;
-  }
-}
-
-.cta-form__span {
-  width: 210px;
-  &--wide {
-    width: 100%;
   }
 }
 

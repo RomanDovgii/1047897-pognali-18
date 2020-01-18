@@ -15,17 +15,13 @@
   color: #ffffff;
   padding-left: 50px;
   padding-right: 50px;
+  font-size: 16px;
+  line-height: 22px;
   &--thin {
     font-weight: 300;
-
-    font-size: 16px;
-    line-height: 22px;
   }
   &--bold {
     font-weight: 700;
-
-    font-size: 16px;
-    line-height: 22px;
     margin-top: 20px;
   }
 }

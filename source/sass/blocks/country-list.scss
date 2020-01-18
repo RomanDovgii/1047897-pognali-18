@@ -1,5 +1,9 @@
 .country-list {
   list-style: none;
   padding-left: 0px;
-  margin-top: 61px;
+}
+
+.country-list__item {
+  width: 270px;
+  margin-top: 10px;
 }

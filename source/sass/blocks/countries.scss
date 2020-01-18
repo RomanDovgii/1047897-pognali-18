@@ -4,14 +4,12 @@
   background: #edeff6;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  margin-top: -50px;
   padding-bottom: 30px;
   padding-top: 100px;
 }
 
 .countries__heading {
   font-weight: 700;
-
   font-size: 24px;
   line-height: 24px;
   color: #ff8d30;
@@ -56,4 +54,8 @@
     top: 24px;
     right: 21px;
   }
+}
+
+.countries__country-list {
+  margin-top: 61px;
 }
