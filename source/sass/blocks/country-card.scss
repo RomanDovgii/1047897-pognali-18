@@ -2,8 +2,6 @@
   margin: 0 auto;
   border-radius: 10px;
   background: #ffffff;
-  display: flex;
-  flex-direction: column;
 }
 
 .country-card__country-img {
@@ -12,12 +10,14 @@
 }
 
 .country-card__description {
+  position: relative;
+  z-index: 1;
   width: 270px;
   border-radius: 10px;
   background-color: #ffffff;
-  margin-top: -11px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: -16px;
 }
 
 .country-card__text-wrapper {

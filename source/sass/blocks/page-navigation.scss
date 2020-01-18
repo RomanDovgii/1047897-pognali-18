@@ -6,7 +6,6 @@
   background: #ffffff;
   border-radius: 20px;
   margin: 0 auto;
-  margin-top: 25px;
   padding-left: 0;
 }
 
@@ -14,21 +13,16 @@
   display: block;
   width: 135px;
   height: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px 20px;
   &--previous {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
     border-right: 1px solid #edeff6;
-    background: url("../img/icons/recolorized/192144/triangle-arrow-left.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 10px 20px;
+    background-image: url("../img/icons/recolorized/192144/triangle-arrow-left.svg");
   }
   &--next {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background: url("../img/icons/recolorized/192144/triangle-arrow-right.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 10px 20px;
+    background-image: url("../img/icons/recolorized/192144/triangle-arrow-right.svg");
   }
 }

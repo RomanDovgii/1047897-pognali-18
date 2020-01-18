@@ -13,28 +13,25 @@
   color: #ffffff;
   margin-left: 25px;
   padding-top: 66px;
-  &--form {
-    &::after {
+  &::after {
     position: absolute;
+    bottom: -2px;
     content: "";
     display: block;
+    border-radius: 2.39px;
+    background-color: #ff8d30;
+
+  }
+  &--form {
+    &::after {
     width: 214px;
     height: 5px;
-    border-radius: 2.39px;
-    background: #ff8d30;
-    bottom: -2px;
     }
   }
   &--catalog {
     &::after {
-    position: absolute;
-    content: "";
-    display: block;
     width: 173px;
     height: 5px;
-    border-radius: 2.39px;
-    background: #ff8d30;
-    bottom: -2px;
     }
   }
 }
