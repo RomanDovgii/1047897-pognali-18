@@ -7,16 +7,9 @@
   &--catalog {
     margin: 0;
     margin-left: 25px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 3px;
-  }
-}
-
-.countries-list__item {
-  &--catalog {
-    height: 27px;
   }
 }
 
@@ -41,6 +34,7 @@
     line-height: 18px;
     color: #1d2e5b;
     padding-left: 40px;
+    height: 27px;
     &::before {
       content: "";
       position: absolute;
