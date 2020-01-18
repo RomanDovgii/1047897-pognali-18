@@ -7,26 +7,40 @@
   padding-right: 70px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  margin-top: -260px;
+  margin-top: -240px;
   z-index: 9;
-  padding-top: 310px;
+  padding-top: 292px;
+  padding-bottom: 80px;
+}
+
+.about__wrapper {
+  width: 270px;
+  margin: 0 auto;
 }
 
 .about__heading {
+  margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
   color: #ff8d30;
+  padding-left: 35px;
+  padding-top: 20px;
 }
 
 .about__text {
+  margin: 0;
   color: #ffffff;
   font-size: 16px;
   line-height: 22px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 25px;
   &--thin {
     font-weight: 300;
   }
   &--bold {
     font-weight: 700;
+    padding-top: 19px;
   }
 }

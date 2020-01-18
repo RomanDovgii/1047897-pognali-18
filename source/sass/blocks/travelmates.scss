@@ -3,38 +3,46 @@
   padding-bottom: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  padding-top: 97px;
+}
+
+.travelmates__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  padding-left: 50px;
 }
 
 .travelmates__heading {
+  margin: 0;
   color: #ff8d30;
-  padding-top: 97px;
-  margin-left: 50px;
+  padding-top: 24px;
 }
 
 .travelmates__text {
+  margin: 0;
   color: #ffffff;
-  padding-left: 50px;
   padding-right: 50px;
   font-size: 16px;
   line-height: 22px;
+  padding-top: 17px;
   &--thin {
     font-weight: 300;
   }
   &--bold {
     font-weight: 700;
-    margin-top: 20px;
+    padding-top: 21px;
   }
 }
 
 .travelmates__list {
   padding-left: 0;
-  margin-top: 58px;
+  margin-top: 56px;
   list-style: none;
 }
 
 .travelmates__travelmate-card {
   margin: 0 auto;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .travelmates__show-all {

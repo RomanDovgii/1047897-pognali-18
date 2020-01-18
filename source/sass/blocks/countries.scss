@@ -8,22 +8,29 @@
   padding-top: 100px;
 }
 
+.countries__wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .countries__heading {
+  margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
   color: #ff8d30;
   padding-left: 50px;
+  padding-top: 23px;
 }
 
 .countries__text {
+  margin: 0;
   font-weight: 300;
-
-
   line-height: 22px;
   color: #444444;
+  padding-top: 18px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .countries__show-all {
@@ -57,5 +64,5 @@
 }
 
 .countries__country-list {
-  margin-top: 61px;
+  margin-top: 50px;
 }

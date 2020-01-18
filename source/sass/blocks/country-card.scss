@@ -13,10 +13,9 @@
 
 .country-card__description {
   width: 270px;
-  height: 90px;
   border-radius: 10px;
   background-color: #ffffff;
-  margin-top: -10px;
+  margin-top: -11px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -40,46 +39,47 @@
 
 
 .country-card__name {
+  margin: 0;
   font-weight: 700;
-
   font-size: 21px;
   line-height: 21px;
   color: #161c35;
+  padding-top: 24px;
 }
 
 .country-card__visited-number {
+  margin: 0;
+  display: flex;
   position: relative;
   font-weight: 500;
-
   font-size: 16px;
   line-height: 30px;
   color: #444444;
   opacity: 30%;
   margin-right: 0;
   margin-left: auto;
-  margin-right: 24px;
-  margin-top: 22px;
+  padding-right: 24px;
+  padding-top: 25px;
   &::before {
     content: "";
-    position: absolute;
-    top: 10px;
-    left: -18px;
-    display: block;
+    position: relative;
     width: 12px;
     height: 12px;
     background-image: url("../img/icons/user.svg");
     background-repeat: no-repeat;
     background-size: 11px 11px;
     opacity: 25%;
+    margin-right: 6px;
+    margin-top: 7px;
   }
 }
 
 .country-card__slogan {
+  margin: 0;
   font-weight: 500;
-
   font-size: 16px;
   line-height: 18px;
   color: #444444;
   opacity: 30%;
-  margin-top: -18px;
+  padding-bottom: 24px;
 }
