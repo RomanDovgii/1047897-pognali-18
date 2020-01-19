@@ -25,28 +25,18 @@
     margin-right: 15px;
     background-color: #192144;
   }
-  &--phone {
-    &::before {
-      background-image:  url("../img/icons/recolorized/contacts-phone-yellow.svg");
-    }
-  }
-  &--email {
-    &::before {
-      background-image: url("../img/icons/recolorized/contacts-mail-yellow.svg");
-    }
-  }
   &--cta {
     color: #ffd74b;
     &::before {
       background-color: #121936;
     }
   }
-  &--phone-cta {
+  &--phone {
     &::before {
       background-image:  url("../img/icons/recolorized/contacts-phone-yellow.svg");
     }
   }
-  &--email-cta {
+  &--email {
     &::before {
       background-image: url("../img/icons/recolorized/contacts-mail-yellow.svg");
     }

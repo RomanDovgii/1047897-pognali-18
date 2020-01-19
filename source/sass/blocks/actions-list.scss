@@ -3,7 +3,7 @@
   width: 270px;
   position: relative;
   z-index: 10;
-  counter-reset: li;
+  counter-reset: actions;
 }
 
 .actions-list__item {
@@ -14,8 +14,8 @@
   color: #161c35;
   border-radius: 10px;
   background-color: #ffbd30;
-  height: 100px;
   margin-top:-20px;
+  padding-bottom: 43px;
   &:nth-child(even) {
     background-color: #ffa530;
   }
@@ -27,19 +27,19 @@
     background-color: #ff8d30;
   }
   &::after {
-    counter-increment: li;
-    content: counter(li);
+    counter-increment: actions;
+    content: counter(actions);
     position: absolute;
-    top: 20px;
+    top: 22px;
     right: 20px;
     color: #ffffff;
   }
 }
 
 .actions-list__span {
+  margin: 0;
   display: block;
   width: 165px;
-  height: 36px;
   padding-left: 25px;
   padding-top: 21px;
 }

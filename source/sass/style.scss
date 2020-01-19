@@ -31,21 +31,4 @@
 @import "./blocks/developed-by.scss";
 @import "./visually-hidden.scss";
 @import "./normalize.scss";
-
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  min-width: 320px;
-  margin: 0 auto;
-  font-family: "Blogger Sans" ,sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
+@import "./general.scss"

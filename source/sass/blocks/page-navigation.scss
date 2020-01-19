@@ -3,7 +3,6 @@
   display: flex;
   width: 270px;
   height: 50px;
-  background: #ffffff;
   border-radius: 20px;
   margin: 0 auto;
   padding-left: 0;
@@ -13,16 +12,19 @@
   display: block;
   width: 135px;
   height: 50px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 10px 20px;
+  background-color: #ffffff;
   &--previous {
-    border-right: 1px solid #edeff6;
     background-image: url("../img/icons/recolorized/192144/triangle-arrow-left.svg");
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 1px;
   }
   &--next {
     background-image: url("../img/icons/recolorized/192144/triangle-arrow-right.svg");
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 }

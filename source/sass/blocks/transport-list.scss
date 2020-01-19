@@ -59,37 +59,30 @@
     border-radius: 50%;
     opacity: 1;
     margin-top: 1px;
+    background-size: auto 17px;
   }
   &--catalog-plane {
     background-image: url("../img/transport/recolorized/gray/plane.svg");
-    background-size: 14px 16px;
   }
   &--catalog-bus {
     background-image: url("../img/transport/recolorized/gray/bus.svg");
-    background-size: 13px 16px;
   }
   &--catalog-bycicle {
     background-image: url("../img/transport/recolorized/gray/bike.svg");
-    background-size: 19px 17px;
   }
   &--catalog-run {
     background-image: url("../img/transport/recolorized/gray/run.svg");
-    background-size: 15px 17px;
   }
   &--catalog-plane-active {
     background-image: url("../img/transport/recolorized/blue/plane.svg");
-    background-size: 14px 16px;
   }
   &--catalog-bus-active {
     background-image: url("../img/transport/recolorized/blue/bus.svg");
-    background-size: 13px 16px;
   }
   &--catalog-bycicle-active {
     background-image: url("../img/transport/recolorized/blue/bike.svg");
-    background-size: 19px 17px;
   }
   &--catalog-run-active {
     background-imageL: url("../img/transport/recolorized/blue/run.svg");
-    background-size: 15px 17px;
   }
 }
