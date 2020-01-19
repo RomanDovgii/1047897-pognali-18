@@ -53,6 +53,7 @@
   background-position: center;
   background-size: 13px 11px;
   margin-top: -2px;
+
   &--active {
     background: #f9eaea url("../img/icons/recolorized/red/heart-active.svg");
     background-repeat: no-repeat;
@@ -79,9 +80,11 @@
     height: 6px;
     display: block;
     border-radius: 2.5px;
+
     &--off {
       background: #f97676;
     }
+
     &--on {
       background: #81e31e;
     }
@@ -104,6 +107,7 @@
   line-height: 18px;
   color: #444444;
   text-transform: lowercase;
+
   &--annotation {
     padding-left: 26px;
     margin-bottom: 6px;

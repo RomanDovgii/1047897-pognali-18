@@ -14,6 +14,7 @@
   text-transform: uppercase;
   color: #192144;
   display: flex;
+
   &::before {
     content: "";
     width: 45px;
@@ -25,17 +26,20 @@
     margin-right: 15px;
     background-color: #192144;
   }
+
   &--cta {
     color: #ffd74b;
     &::before {
       background-color: #121936;
     }
   }
+
   &--phone {
     &::before {
       background-image:  url("../img/icons/recolorized/contacts-phone-yellow.svg");
     }
   }
+
   &--email {
     &::before {
       background-image: url("../img/icons/recolorized/contacts-mail-yellow.svg");

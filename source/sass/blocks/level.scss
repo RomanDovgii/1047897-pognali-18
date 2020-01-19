@@ -24,12 +24,14 @@
   font-size: 14px;
   line-height: 14px;
   margin-top: 3px;
+
   &--number {
     position: relative;
     font-weight: 700;
 
     font-size: 24px;
     line-height: 24px;
+
     &::after {
       position: absolute;
       bottom: -3px;
@@ -39,7 +41,7 @@
       width: 31px;
       height: 1px;
       background: #ffffff;
-      opacity: 30%
+      opacity: 30%;
     }
   }
 }

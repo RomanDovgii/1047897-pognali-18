@@ -10,6 +10,7 @@
   position: relative;
   width: 320px;
   margin: 0 auto;
+
   &::before {
     position: absolute;
     top: 0;
@@ -55,6 +56,7 @@
   padding-left: 20px;
   margin: 0 auto;
   margin-top: 31px;
+
   &::after {
     position: absolute;
     bottom: 21px;
