@@ -103,7 +103,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -278,8 +278,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+[type="search"] { /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -287,9 +286,7 @@ textarea {
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -297,7 +294,6 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
