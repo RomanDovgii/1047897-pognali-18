@@ -22,7 +22,6 @@
   flex-direction: column;
   justify-content: flex-start;
   height: auto;
-  height: 80px;
 }
 
 .travelmate-catalog__name {
@@ -80,13 +79,13 @@
   display: block;
   border-radius: 2.5px;
 
-    &--off {
-      background: #f97676;
-    }
+  &--off {
+    background: #f97676;
+  }
 
-    &--on {
+  &--on {
       background: #81e31e;
-    }
+  }
 }
 
 .travelmate-catalog__countries-wrapper {
