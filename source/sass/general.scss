@@ -2,14 +2,16 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
   min-width: 320px;
   margin: 0 auto;
-  font-family: "Blogger Sans" ,sans-serif;
+  font-family: "Blogger Sans", sans-serif;
   font-size: 16px;
   padding: 0;
 }
