@@ -1,9 +1,5 @@
 .travelmates {
-  background: #192144;
-  padding-bottom: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  padding-top: 97px;
+  background-color: #192144;
 }
 
 .travelmates__wrapper {
@@ -64,6 +60,7 @@
   box-sizing: border-box;
   padding-left: 24px;
   margin-top: 20px;
+  z-index: 5;
 
   &::after {
     content: "";

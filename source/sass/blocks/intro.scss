@@ -1,5 +1,6 @@
 .intro {
-  background: #161c35 url("../img/mobile/globe-back-mobile@1x.jpg");
+  background-color: #161c35;
+  background-image: url("../img/mobile/globe-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 0 -50px;
   padding-top: 44px;
@@ -23,7 +24,7 @@
 .intro__functions-list {
   width: 310px;
   margin: 0 auto;
-  margin-top: -25px;
+  margin-top: -21px;
 }
 
 
