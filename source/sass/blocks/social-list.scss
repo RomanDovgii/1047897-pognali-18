@@ -10,23 +10,19 @@
   text-decoration: none;
   background-position: center;
   background-repeat: no-repeat;
+  width: 23px;
+  height: 23px;
 
   &--facebook {
-    width: 23px;
-    height: 23px;
     background-image: url("../img/social/recolorized/gray/facebook.svg");
     margin-right: 20px;
   }
 
   &--vk {
-    width: 23px;
-    height: 23px;
     background-image: url("../img/social/recolorized/gray/vk.svg");
   }
 
   &--instagram {
-    width: 23px;
-    height: 23px;
     background-image: url("../img/social/recolorized/gray/instagram.svg");
     background-size: 18px 18px;
     margin-left: 22px;

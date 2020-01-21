@@ -5,7 +5,8 @@
 }
 
 .cta-form__heading {
-  margin: 0;
+  width: 270px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
@@ -47,16 +48,17 @@
   font-weight: 700;
   position: relative;
   display: block;
+  background-color: #ffffff;
   border: none;
   width: 270px;
   height: 62px;
   padding-left: 23px;
   border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
 
   &::placeholder {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 60px;
     color: #444444;
     opacity: 0.3;
   }

@@ -1,22 +1,25 @@
 .main__heading-section {
+  display: flex;
   position: relative;
   min-width: 320px;
-  height: 120px;
   background: #161c35;
   margin-top: -44px;
   border-radius: 20px;
+  padding-top: 80px;
+  padding-bottom: 8px;
 }
 
 .main__heading {
+  position: relative;
+  margin: 0;
   font-weight: 700;
   font-size: 36px;
   color: #ffffff;
   margin-left: 25px;
-  padding-top: 66px;
 
   &::after {
     position: absolute;
-    bottom: -2px;
+    bottom: -10px;
     content: "";
     display: block;
     border-radius: 2.39px;
@@ -25,14 +28,14 @@
 
   &--form {
     &::after {
-      width: 214px;
+      width: 101%;
       height: 5px;
     }
   }
 
   &--catalog {
     &::after {
-      width: 173px;
+      width: 101%;
       height: 5px;
     }
   }

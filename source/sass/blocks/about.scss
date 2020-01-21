@@ -1,6 +1,7 @@
 .about {
   position: relative;
-  background: #192144 url("../img/mobile/about-mobile@1x.png");
+  background-color: #192144;
+  background-image: url("../img/mobile/about-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-left: 50px;
@@ -43,6 +44,5 @@
 
   &--bold {
     font-weight: 700;
-    padding-top: 19px;
   }
 }
