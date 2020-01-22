@@ -12,15 +12,11 @@
 .top-menu__logo-link {
   display: block;
   text-decoration: none;
-  margin-top: 26px;
+  margin-top: 19px;
   margin-left: 25px;
 
-  &--form {
-    margin-top: 19px;
-  }
-
-  &--catalog {
-    margin-top: 19px;
+  &--index {
+    margin-top: 26px;
   }
 }
 
@@ -28,19 +24,14 @@
   border: none;
   background: #161c35 url("../img/icons/recolorized/menu-white.svg");
   background-repeat: no-repeat;
+  margin-top: 23px;
+  margin-right: 25px;
   width: 25px;
   height: 11px;
-  margin-top: 31px;
-  margin-right: 24px;
 
-  &--form {
-    margin-top: 23px;
-    margin-right: 25px;
-  }
-
-  &--catalog {
-    margin-top: 23px;
-    margin-right: 25px;
+  &--index {
+    margin-top: 31px;
+    margin-right: 24px;
   }
 }
 
