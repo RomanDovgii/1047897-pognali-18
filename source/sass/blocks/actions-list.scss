@@ -10,12 +10,16 @@
   position: relative;
   font-weight: 700;
   font-size: 18px;
+  width: 100%;
   line-height: 18px;
   color: #161c35;
   border-radius: 10px;
   background-color: #ffbd30;
   margin-top: -20px;
   padding-bottom: 43px;
+  padding-left: 25px;
+  padding-right: 105px;
+  padding-top: 21px;
 
   &:nth-child(even) {
     background-color: #ffa530;
@@ -38,12 +42,4 @@
     right: 20px;
     color: #ffffff;
   }
-}
-
-.actions-list__text {
-  margin: 0;
-  display: block;
-  width: 165px;
-  padding-left: 25px;
-  padding-top: 21px;
 }
