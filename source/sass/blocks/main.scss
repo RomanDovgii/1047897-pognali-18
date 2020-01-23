@@ -170,3 +170,26 @@
     z-index: 3;
   }
 }
+
+.main__personal-info {
+  padding-top: 34px;
+  background-color: #edeff6;
+  padding-bottom: 80px;
+}
+
+.main__plan {
+  position: relative;
+  background-color: #dfe3f0;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: -47px;
+    left: 0;
+    background-color: inherit;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    z-index: 3;
+  }
+}

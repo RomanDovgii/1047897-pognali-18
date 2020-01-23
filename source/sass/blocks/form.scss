@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__change-avatar {
+  margin-top: 18px;
+  width: 270px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #dfe3f0;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  color: #161c35;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form__change-tags {
+  margin-top: 15px;
+}
+
+.form__change-transport {
+  margin-top: 17px;
+}

@@ -78,50 +78,57 @@
 
       <section class="personal-info main__personal-info">
         <h2 class="visually-hidden">Обновить профиль</h2>
-        <div class="level personal-info__level">
-          <p class="level__info">
-            <span class="level__number">99</span>
-            <span class="level__text">level</span>
+        <div class="level-form personal-info__level-form">
+          <p class="level-form__info">
+            <span class="level-form__number">80</span>
+            <span class="level-form__text">level</span>
           </p>
+          <img class="level-form__user-img" width="100" height="100" src="https://via.placeholder.com/150x150" alt="фото пользователя">
         </div>
-        <img class="personal-info__user-img" width="100" height="100" src="https://via.placeholder.com/150x150" alt="фото пользователя">
+
         <form class="form personal-info__form" action="https://echo.htmlacademy.ru" method="post">
-          <label class="change-avatar form__change-avatar" for="change-avatar__button">
+          <label class="form__change-avatar" for="change-avatar__button">
             Cменить фото
             <input class="visually-hidden" type="file" id="change-avatar__button">
           </label>
             <div class="change-tags form__change-tags">
                 <span class="change-tags__legend">Тэги</span>
-                <textarea class="change-tags__textarea" name="tags" rows="8" cols="20"></textarea>
+                <textarea class="change-tags__textarea" name="tags" rows="8" cols="20">#бургер #бар #футбол #концерт #крафт</textarea>
             </div>
-            <fieldset class="change-transport__fieldset form__change-transport">
+            <fieldset class="change-transport form__change-transport">
               <legend class="change-transport__legend">Транспорт</legend>
-              <label class="change-transport__plane-label" for="plane">
-                <span class="visually-hidden">Самолет</span>
-              </label>
-              <label class="change-transport__bus-label" for="bus">
-                <span class="visually-hidden">Автобус</span>
-              </label>
-              <label class="change-transport__bycicle-label" for="bycicle">
-                <span class="visually-hidden">Велосипед</span>
-              </label>
-              <label class="change-transport__run-label" for="run">
-                <span class="visually-hidden">Пешком</span>
-              </label>
               <input class="visually-hidden" type="checkbox" name="plane" id="plane" checked>
               <input class="visually-hidden" type="checkbox" name="bus" id="bus" checked>
-              <input class="visually-hidden" type="checkbox" name="bycicle" id="bycicle">
+              <input class="visually-hidden" type="checkbox" name="bike" id="bike">
               <input class="visually-hidden" type="checkbox" name="run" id="run" checked>
+
+              <div class="change-transport__buttons-wrapper">
+                <label class="change-transport__button change-transport__button--plane" for="plane">
+                  <span class="visually-hidden">Самолет</span>
+                </label>
+                <label class="change-transport__button change-transport__button--bus" for="bus">
+                  <span class="visually-hidden">Автобус</span>
+                </label>
+                <label class="change-transport__button change-transport__button--bike" for="bike">
+                  <span class="visually-hidden">Велосипед</span>
+                </label>
+                <label class="change-transport__button change-transport__button--run" for="run">
+                  <span class="visually-hidden">Пешком</span>
+                </label>
+              </div>
             </fieldset>
           </form>
       </section>
 
       <section class="plan main__plan">
         <h2 class="plan__heading">Мои планы:</h2>
-        <ol class="plan__plans-list">
+        <ol class="plan__list">
           <li class="plan__item">
             <h3 class="plan__places">Франция, Италия</h3>
-            <p class="plan__mates">3 попутчика</p>
+            <p class="plan__mates">
+              <span class="plan__mates--number">3</span>
+              <span class="plan__mates--text">попутчика</span>
+            </p>
             <p class="plan__dates">26 мар - 29 мар</p>
             <a class="plan__change-link" href="">изменить</a>
           </li>
@@ -146,7 +153,9 @@
               <p class="steps-list__description">Укажите предпочтительное количество попутчиков, которых вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
               <fieldset class="mates-fieldset steps-list__mates-fieldset">
                 <legend class="mates-fieldset__legend">Ищу попутчиков</legend>
-                <button class="mates-fieldset__minus-button" type="button">Убрать</button>
+                <button class="mates-fieldset__minus-button" type="button">
+                  <span class="visually-hidden">Убрать</span>
+                </button>
                 <input class="mates-fieldset__input" type="number" name="mates" value="2">
                 <button class="mates-fieldset__plus-button" type="button">
                   <span class="visually-hidden">Добавить</span>
@@ -154,9 +163,13 @@
               </fieldset>
               <fieldset class="duration-fieldset steps-list__duration-fieldset">
                 <legend class="duration-fieldset__legend">Длительность</legend>
-                <button class="duration-fieldset__minus-button" type="button">Убрать</button>
+                <button class="duration-fieldset__minus-button" type="button">
+                  <span class="visually-hidden">Убрать</span>
+                </button>
                 <input class="duration-fieldset__input" type="number" name="length" value="2">
-                <button class="duration-fieldset__plus-button" type="button"> + </button>
+                <button class="duration-fieldset__plus-button" type="button">
+                  <span class="visually-hidden">Добавить</span>
+                 </button>
               </fieldset>
               <fieldset class="children-fieldset steps-list__children-fieldset">
                 <label class="children-fieldset__label">

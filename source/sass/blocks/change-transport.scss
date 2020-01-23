@@ -1,0 +1,72 @@
+.change-transport {
+  width: 270px;
+  border: 1px solid #cdced9;
+  border-radius: 10px;
+  padding-bottom: 14px;
+}
+
+.change-transport__legend {
+  color: #161c35;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.change-transport__buttons-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.change-transport__button {
+  width: 33px;
+  height: 33px;
+  background-color: #ffffff;
+  border-radius: 50%;
+
+  &--plane {
+    background-image: url("../img/transport/recolorized/gray/plane.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px 16px;
+  }
+
+  &--bus {
+    background-image: url("../img/transport/recolorized/gray/bus.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 13px 16px;
+  }
+
+  &--bike {
+    background-image: url("../img/transport/recolorized/gray/bike.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 19px 17px;
+  }
+
+  &--run {
+    background-image: url("../img/transport/recolorized/gray/run.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px 17px;
+  }
+}
+
+
+#plane:checked ~ .change-transport__buttons-wrapper .change-transport__button--plane {
+  background-image: url("../img/transport/recolorized/blue/plane.svg");
+}
+
+#bus:checked ~ .change-transport__buttons-wrapper .change-transport__button--bus {
+  background-image: url("../img/transport/recolorized/blue/bus.svg");
+}
+
+#bike:checked ~ .change-transport__buttons-wrapper .change-transport__button--bike {
+  background-image: url("../img/transport/recolorized/blue/bike.svg");
+}
+
+#run:checked ~ .change-transport__buttons-wrapper .change-transport__button--run {
+  background-image: url("../img/transport/recolorized/blue/run.svg");
+}
