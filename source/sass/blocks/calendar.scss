@@ -1,0 +1,46 @@
+.calendar__month-year-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #cbced9;
+  border-bottom: 1px solid #cbced9;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 22px;
+}
+
+.calendar__month-selection {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #1d2e5b;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+.calendar__button {
+  background: none;
+  border: none;
+  width: 10;
+  height: 18;
+
+  &--previous-month {
+    background-image: url("../img/icons/mobile/month-arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 12px;
+    background-size: 9px 18px;
+    opacity: 0.3;
+  }
+
+  &--next-month {
+    background-image: url("../img/icons/mobile/month-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: 3px 12px;
+    background-size: 9px 18px;
+    opacity: 0.3;
+  }
+}
+
+.calendar__days-names {
+  margin-bottom: 7px;
+}

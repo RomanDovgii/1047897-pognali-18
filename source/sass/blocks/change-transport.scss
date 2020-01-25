@@ -27,7 +27,7 @@
 
   &--plane {
     background-image: url("../img/transport/recolorized/gray/plane.svg");
-    background-position: center;
+    background-position: 8px 9px;
     background-repeat: no-repeat;
     background-size: 14px 16px;
   }
@@ -54,19 +54,20 @@
   }
 }
 
+.change-transport__checkbox:checked + .change-transport__button {
+  &--plane {
+    background-image: url("../img/transport/recolorized/blue/plane.svg");
+  }
 
-#plane:checked ~ .change-transport__buttons-wrapper .change-transport__button--plane {
-  background-image: url("../img/transport/recolorized/blue/plane.svg");
-}
+  &--bus {
+    background-image: url("../img/transport/recolorized/blue/bus.svg");
+  }
 
-#bus:checked ~ .change-transport__buttons-wrapper .change-transport__button--bus {
-  background-image: url("../img/transport/recolorized/blue/bus.svg");
-}
+  &--bike {
+    background-image: url("../img/transport/recolorized/blue/bike.svg");
+  }
 
-#bike:checked ~ .change-transport__buttons-wrapper .change-transport__button--bike {
-  background-image: url("../img/transport/recolorized/blue/bike.svg");
-}
-
-#run:checked ~ .change-transport__buttons-wrapper .change-transport__button--run {
-  background-image: url("../img/transport/recolorized/blue/run.svg");
+  &--run {
+    background-image: url("../img/transport/recolorized/blue/run.svg");
+  }
 }

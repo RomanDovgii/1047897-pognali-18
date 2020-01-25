@@ -1,0 +1,53 @@
+.route {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.route__list {
+  list-style: none;
+  padding-left: 0;
+  padding-left: 25px;
+}
+
+.route__item {
+  position: relative;
+  display: flex;
+  margin-bottom: 22px;
+
+  &::after {
+    content: "";
+    width: 53px;
+    height: inherit;
+    border: 1px solid #cbced9;
+    border-radius: 4px;
+  }
+}
+
+.route__country-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  color: #1d2e5b;
+  text-transform: uppercase;
+  padding-right: 10px;
+  border: 1px solid #cbced9;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-overflow: ellipsis;
+}
+
+.route__delete-country {
+  height: 21px;
+  width: 21px;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  background-color: #edeff6;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

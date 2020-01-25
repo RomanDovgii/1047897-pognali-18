@@ -1,0 +1,58 @@
+.days-names__list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 25px;
+}
+
+.days-names__item {
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  padding-left: 13px;
+  padding-right: 11px;
+
+  &:first-child {
+    &::before {
+      content: "П";
+    }
+  }
+
+  &:nth-child(2) {
+    &::before {
+      content: "В";
+    }
+  }
+
+  &:nth-child(3) {
+    &::before {
+      content: "С";
+    }
+  }
+
+  &:nth-child(4) {
+    &::before {
+      content: "Ч";
+    }
+  }
+
+  &:nth-child(5) {
+    &::before {
+      content: "П";
+    }
+  }
+
+  &:nth-child(6) {
+    &::before {
+      content: "С";
+      color: #ff5c23;
+    }
+  }
+
+  &:last-child {
+    &::before {
+      content: "В";
+      color: #ff5c23;
+    }
+  }
+}

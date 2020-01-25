@@ -12,6 +12,13 @@
   margin-left: 25px;
   margin-right: 25px;
   padding-top: 4px;
+  margin-top: 10px;
+  padding-bottom: 9px;
+
+  &:first-child {
+    margin-top: 0;
+    padding-bottom: 22px;
+  }
 }
 
 .steps-list__heading {
@@ -44,6 +51,7 @@
   width: 220px;
   margin: 0 auto;
   margin-top: 11px;
+  margin-bottom: 18px;
 
   &::before {
     content: "";
@@ -55,11 +63,57 @@
   }
 }
 
-#children-check:checked ~ .steps-list__children-label {
+.steps-list__children-check:checked + .steps-list__children-label {
   &::before {
     background-image: url("../img/icons/mobile/tick.svg");
     background-size: 9px 9px;
     background-repeat: no-repeat;
     background-position:8px 7px
+  }
+}
+
+.steps-list__calendar {
+  margin-bottom: 22px;
+}
+
+.steps-list__next-link {
+  display: block;
+  text-align: center;
+  width: 230px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #ffd74b;
+  font-size: 17px;
+  line-height: 30px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #161c35;
+}
+
+.steps-list__route {
+  padding-top: 10.5px;
+}
+
+.steps-list__prev-link {
+  text-align: center;
+  font-size: 17px;
+  line-height: 30px;
+  color: #161c35;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.steps-list__country-fieldset {
+  margin-bottom: 17px;
+
+  &:first-of-type {
+    margin-top: 23px;
   }
 }
