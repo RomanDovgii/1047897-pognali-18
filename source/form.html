@@ -389,14 +389,18 @@
                 <span class="steps-list__second-line">Развлечения</span>
               </h3>
               <p class="steps-list__description">Наконец, расскажите о своих планах времяпровождения. Можно писать в свободной форме и ставить тэги.</p>
-              <fieldset class="country-fieldset steps-list__country-fieldset">
-                <legend class="country-fieldset__legend">Босния и герцеговина</legend>
-                <textarea class="country-fieldset__textarea textarea-fieldset__textarea--first" name="plan" rows="9" cols="60" placeholder="План действий"></textarea>
-              </fieldset>
-              <fieldset class="country-fieldset steps-list__country-fieldset">
-                <legend class="country-fieldset__legend">Чехия</legend>
-                <textarea class="country-fieldset__textarea textarea-fieldset__textarea--second" name="plan" rows="9" cols="60">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
-              </fieldset>
+              <div class="country-block steps-list__country-block">
+                <div class="country-block__heading-wrapper">
+                  <h3 class="country-block__heading">Босния и герцеговина</h3>
+                </div>
+                <textarea class="country-block__textarea textarea-fieldset__textarea--first" name="plan" rows="9" cols="60" placeholder="План действий"></textarea>
+              </div>
+              <div class="country-block steps-list__country-block">
+                <div class="country-block__heading-wrapper">
+                  <h3 class="country-block__heading">Чехия</h3>
+                </div>
+                <textarea class="country-block__textarea textarea-fieldset__textarea--second" name="plan" rows="9" cols="60">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
+              </div>
               <button class="steps-list__submit" type="submit">Отправить</button>
               <a class="steps-list__prev-link" href="">На шаг назад</a>
             </li>
