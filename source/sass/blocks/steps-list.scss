@@ -1,0 +1,65 @@
+.steps-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+}
+
+.steps-list__item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 4px;
+}
+
+.steps-list__heading {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #1d2e5b;
+  padding-top: 20px;
+}
+
+.steps-list__description {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.steps-list__children-label {
+  position: relative;
+  font-size: 15px;
+  line-height: 29px;
+  color: #444444;
+  display: flex;
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 11px;
+
+  &::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    border: 1px solid #cdced9;
+    border-radius: 4px;
+    margin-right: 13px;
+  }
+}
+
+#children-check:checked ~ .steps-list__children-label {
+  &::before {
+    background-image: url("../img/icons/mobile/tick.svg");
+    background-size: 9px 9px;
+    background-repeat: no-repeat;
+    background-position:8px 7px
+  }
+}

@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>HTML Academy: Погнали</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
@@ -147,39 +148,39 @@
           <ol class="steps-list add-plan__steps-list">
             <li class="steps-list__item">
               <h3 class="steps-list__heading">
-                <span class="steps-list__first-line">Шаг 1.</span>
-                <span class="steps-list__second-line">Даты пребывания</span>
+                <span class="steps-list__heading--first-line">Шаг 1.</span>
+                <span class="steps-list__heading--second-line">Даты пребывания</span>
               </h3>
               <p class="steps-list__description">Укажите предпочтительное количество попутчиков, которых вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
               <fieldset class="mates-fieldset steps-list__mates-fieldset">
-                <legend class="mates-fieldset__legend">Ищу попутчиков</legend>
-                <button class="mates-fieldset__minus-button" type="button">
-                  <span class="visually-hidden">Убрать</span>
-                </button>
-                <input class="mates-fieldset__input" type="number" name="mates" value="2">
-                <button class="mates-fieldset__plus-button" type="button">
-                  <span class="visually-hidden">Добавить</span>
-                </button>
+                <legend class="mates-fieldset__legend">Ищу попутчиков:</legend>
+                <div class="mates-fieldset__input-wrapper">
+                  <button class="mates-fieldset__minus-button" type="button">
+                    <span class="visually-hidden">Убрать</span>
+                  </button>
+                  <input class="mates-fieldset__input" type="number" name="mates" value="2">
+                  <button class="mates-fieldset__plus-button" type="button">
+                    <span class="visually-hidden">Добавить</span>
+                  </button>
+                </div>
               </fieldset>
               <fieldset class="duration-fieldset steps-list__duration-fieldset">
                 <legend class="duration-fieldset__legend">Длительность</legend>
-                <button class="duration-fieldset__minus-button" type="button">
-                  <span class="visually-hidden">Убрать</span>
-                </button>
-                <input class="duration-fieldset__input" type="number" name="length" value="2">
-                <button class="duration-fieldset__plus-button" type="button">
-                  <span class="visually-hidden">Добавить</span>
-                 </button>
+                <div class="duration-fieldset__input-wrapper">
+                  <button class="duration-fieldset__minus-button" type="button">
+                    <span class="visually-hidden">Убрать</span>
+                  </button>
+                  <input class="duration-fieldset__input" type="number" name="length" value="2">
+                  <button class="duration-fieldset__plus-button" type="button">
+                    <span class="visually-hidden">Добавить</span>
+                   </button>
+                </div>
               </fieldset>
-              <fieldset class="children-fieldset steps-list__children-fieldset">
-                <label class="children-fieldset__label">
-                  <input class="children-fieldset__input" type="checkbox" name="with-children">
-                  Можно с детьми
-                </label>
-              </fieldset>
-              <span class="steps-list__month-selection">Март 2019</span>
+              <input class="visually-hidden" type="checkbox" id="children-check" name="with-children" checked>
+              <label class="steps-list__children-label" for="children-check">Можно с детьми</label>
 
               <div class="calendar steps-list__calendar">
+                <span class="calendar__month-selection">Март 2019</span>
                 <div class="days-names calendar__days-names">
                   <ul class="days-names__list">
                     <li class="days-names__item">
@@ -397,11 +398,11 @@
               <p class="steps-list__description">Наконец, расскажите о своих планах времяпровождения. Можно писать в свободной форме и ставить тэги.</p>
               <fieldset class="textarea-fieldset steps-list__textarea-fieldset">
                 <legend class="textarea-fieldset__legend">Босния и герцеговина</legend>
-                <textarea class="textarea-fieldset__textarea" name="plan" rows="8" cols="60"></textarea>
+                <textarea class="textarea-fieldset__textarea textarea-fieldset__textarea--first" name="plan" rows="8" cols="60"></textarea>
               </fieldset>
               <fieldset class="textarea-fieldset steps-list__textarea-fieldset">
                 <legend class="textarea-fieldset__legend">Чехия</legend>
-                <textarea class="textarea-fieldset__textarea" name="plan" rows="8" cols="60">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
+                <textarea class="textarea-fieldset__textarea textarea-fieldset__textarea--second" name="plan" rows="8" cols="60">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
               </fieldset>
               <button type="submit">Отправить</button>
               <a class="steps-list__prev-link" href="">На шаг назад</a>
