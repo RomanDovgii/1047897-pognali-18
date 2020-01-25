@@ -6,6 +6,8 @@
 }
 
 .country-fieldset__legend {
+  display: flex;
+  flex-grow: 1;
   position: relative;
   font-size: 18px;
   font-weight: 500;
