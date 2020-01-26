@@ -7,6 +7,7 @@
 }
 
 .country-block__heading-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
   &::after {
@@ -16,6 +17,17 @@
     background-color: #000000;
     margin-right: 2px;
     margin-left: 5px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -11px;
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: #1d2e5b;
   }
 }
 
@@ -33,7 +45,7 @@
   padding-bottom: 16px;
   flex-grow: 1;
 
-  &::before {
+  &::after {
     content: "";
     position: absolute;
     display: block;
@@ -42,6 +54,18 @@
     width: 60px;
     height: 100%;
     background-image: linear-gradient(90deg,rgba(255,255,255,0) 10%,#ffffff 55%,#ffffff 100%);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #1d2e5b;
   }
 }
 
@@ -52,7 +76,7 @@
   border: 1px solid #cbced9;
   border-radius: 4px;
   padding-bottom: 11px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 9px;
   font-size: 16px;
   line-height: 22px;

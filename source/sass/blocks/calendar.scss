@@ -1,11 +1,17 @@
-.calendar__month-year-wrapper {
+.calendar {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar__month-year-wrapper {
   border-top: 1px solid #cbced9;
   border-bottom: 1px solid #cbced9;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .calendar__month-selection {
@@ -16,6 +22,8 @@
   text-align: center;
   padding-top: 12px;
   padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .calendar__button {
@@ -43,4 +51,8 @@
 
 .calendar__days-names {
   margin-bottom: 7px;
+}
+
+.calendar__calendar-wrapper {
+  margin-left: -4px;
 }

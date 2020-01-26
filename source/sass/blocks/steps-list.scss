@@ -112,6 +112,7 @@
 }
 
 .steps-list__country-block {
+  position: relative;
   margin-bottom: 23px;
 
   &:first-of-type {
@@ -120,6 +121,20 @@
 
   &:last-of-type {
     margin-bottom: 22px;
+  }
+
+
+  &:not(:first-of-type) {
+    &::after {
+      content: "";
+      position: absolute;
+      top: -269px;
+      left: 12px;
+      display: block;
+      width: 2px;
+      height: 281px;
+      background-color: #1d2e5b;
+    }
   }
 }
 
