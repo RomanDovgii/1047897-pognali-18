@@ -1,9 +1,10 @@
 .travelmates-sorted {
   background-color: #edeff6;
-  padding-bottom: 275px;
+  padding-bottom: 60px;
 }
 
 .travelmates-sorted__list {
+  margin-top: -2px;
   padding-left: 0;
   list-style: none;
   display: flex;
@@ -42,5 +43,5 @@
 }
 
 .travelmates-sorted__page-navigation {
-  margin-top: 25px;
+  margin-top: 24px;
 }
