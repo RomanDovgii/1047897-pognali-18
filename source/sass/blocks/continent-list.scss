@@ -1,0 +1,24 @@
+.continent-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.continent-list__item {
+  margin-bottom: 5px;
+}
+
+.continent-list__link {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #b6b9c8;
+
+  &--active {
+    color: #192144;
+  }
+}

@@ -81,14 +81,15 @@
       <section class="filter-country main__filter-country">
         <div class="filter-country__name-wrapper">
           <h2 class="filter-country__name">Фильтрация по странам</h2>
-          <button class="filter-country__open" type="button" name="button">
+          <button class="filter-country__open visually-hidden" type="button" name="button">
             <span class="visually-hidden">Развернуть фильтр</span>
           </button>
-        </div>
-        <div class="filter filter-country__filter visually-hidden">
-          <button class="collapse-filter filter__collapse-filter top-block__collapse-filter--top" type="button" name="button">
+          <button class="filter-country__collapse" type="button" name="button">
             <span class="visually-hidden">Свернуть фильтр</span>
           </button>
+        </div>
+        <div class="filter filter-country__filter">
+
           <ul class="continent-list filter__continent-list">
             <li class="continent-list__item">
               <a class="continent-list__link continent-list__link--active" href="">Европа</a>
