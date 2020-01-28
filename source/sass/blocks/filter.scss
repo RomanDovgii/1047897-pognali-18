@@ -2,6 +2,12 @@
   position: relative;
   width: 100%;
   background-color: #e2e5f2;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-bottom: 27px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 
   &::before {
     content: "";
@@ -12,5 +18,37 @@
     top: -20px;
     left: 0;
     background-color: #e2e5f2;
+  }
+}
+
+.filter__collapse-filter {
+  background-color: #d6daed;
+  border: none;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 7px;
+  padding-bottom: 4px;
+}
+
+.filter__text {
+  font-size: 16.69px;
+  font-weight: 700;
+  line-height: 29.5px;
+  color: #161c35;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+
+  &::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/icons/close.svg");
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+    margin-right: 13px;
   }
 }
