@@ -3,25 +3,25 @@
 }
 
 .duration-fieldset__legend {
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 1.5px;
-    font-weight: 500;
-    color: #1d2e5b;
-    text-transform: uppercase;
-    padding-top: 11px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 2px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #1d2e5b;
+  text-transform: uppercase;
+  padding-top: 11px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 
-    &::after {
-      content: "Дн.";
-      opacity: 0.3;
-      text-align: right;
-    }
+  &::after {
+    content: "Дн.";
+    opacity: 0.3;
+    text-align: right;
+  }
 }
 
 .duration-fieldset__input-wrapper {
