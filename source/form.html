@@ -373,114 +373,123 @@
                   </li>
                   <li class="route__item">
                     <span class="route__choose-country">Выберите страну</span>
-                    <div class="choose-country-block route__choose-country-block">
-                      <ul class="letters-list filter__letters-list">
-                        <li class="letters-list__item">
-                          <a class="letters-list__link letters-list__link--active" href="">А</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Б</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">В</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Г</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Д</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Е</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">З</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">И</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">К</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Л</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">М</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Н</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">О</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">П</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Р</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">С</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Т</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">У</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Ф</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Х</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Ч</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Ш</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Э</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Ю</a>
-                        </li>
-                        <li class="letters-list__item">
-                          <a class="letters-list__link" href="">Я</a>
-                        </li>
-                      </ul>
+                    <div class="country-popup route__country-popup">
+                      <div class="country-popup__top-wrapper">
+                        <span class="country-popup__text">Выберите страну</span>
+                        <button class="country-popup__close" type="button">
+                          <span class="visually-hidden">Закрыть меню выбора страны</span>
+                        </button>
+                        <div class="country-popup__selection-wrapper">
+                          <ul class="letters-list letters-list--form country-popup__letters-list">
+                            <li class="letters-list__item">
+                              <a class="letters-list__link letters-list__link--active letters-list__link--active-form" href="">А</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Б</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">В</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Г</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Д</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Е</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">З</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">И</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">К</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Л</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">М</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Н</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">О</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">П</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Р</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">С</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Т</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">У</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Ф</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Х</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Ч</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Ш</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Э</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Ю</a>
+                            </li>
+                            <li class="letters-list__item">
+                              <a class="letters-list__link" href="">Я</a>
+                            </li>
+                          </ul>
 
-                      <ul class="filter-countries-list filter__filter-countries-list">
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Афганистан</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Албания</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Алжир</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Андорра</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Аргентина</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Армения</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Австралия</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Австрия</a>
-                        </li>
-                        <li class="filter-countries-list__item">
-                          <a class="filter-countries-list__link" href="">Азербайджан</a>
-                        </li>
-                      </ul>
+                          <ul class="filter-countries-list country-popup__filter-countries-list">
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Афганистан</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Албания</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Алжир</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Андорра</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Аргентина</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Армения</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Австралия</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Австрия</a>
+                            </li>
+                            <li class="filter-countries-list__item">
+                              <a class="filter-countries-list__link" href="">Азербайджан</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
                     </div>
                     <button class="route__delete-country" type="button" name="button">
                       <span class="visually-hidden">удалить страну</span>

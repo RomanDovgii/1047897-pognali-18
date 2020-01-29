@@ -1,0 +1,74 @@
+.country-popup {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: none;
+}
+
+.country-popup__top-wrapper {
+  position: relative;
+  background-color: #1d2e5b;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-bottom: 13px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  z-index: 10;
+}
+
+.country-popup__close {
+  border: none;
+  background: none;
+  width: 9px;
+  height: 9px;
+  background-image: url("../img/icons/mobile/small-cross--white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 9px 9px;
+  position: absolute;
+  bottom: 18px;
+  right: 16px;
+}
+
+.country-popup__selection-wrapper {
+  position: absolute;
+  background-color: #ffffff;
+  top: 42px;
+  left: 0;
+  border: 1px solid #cbced9;
+  z-index: 9;
+  padding-bottom: 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+}
+
+
+
+
+
+.country-popup__text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.country-popup__letters-list {
+  border-left: none;
+
+  li:nth-child(5n) {
+    border-right: none;
+  }
+}
+
+.country-popup__filter-countries-list {
+  padding-left: 20px;
+  padding-top: 57px;
+  margin-bottom: 0;
+}
