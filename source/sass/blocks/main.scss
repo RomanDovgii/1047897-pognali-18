@@ -181,6 +181,7 @@
 .main__plan {
   position: relative;
   background-color: #dfe3f0;
+
   &::before {
     content: "";
     position: absolute;
